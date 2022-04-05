@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/screen.css">
+    <script src="https://use.fontawesome.com/121247b17a.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="assets/js/jquery.appear.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>Praxis || Nosotros</title>
+  </head>
+  <body>
+    <header>
+      <div class="menu-section">
+        <div class="menu-toggle">
+          <div class="one"></div>
+          <div class="two"></div>
+          <div class="three"></div>
+        </div>
+        <nav>
+      		<ul role="navigation" class="hidden">
+      			<li><a href="index.html">Inicio</a></li>
+      			<li><a href="#" class="activelnk">Praxis</a></li>
+      			<li><a href="servicios.html">Servicios</a></li>
+      			<li><a href="contacto.php">Contacto</a></li>
+            <div class="nav-footer">
+              <div class="flex">
+                <i class="fa fa-facebook socialnet" aria-hidden="true"></i>
+                <i class="fa fa-twitter socialnet2" aria-hidden="true"></i>
+              </div><br>
+              <li>Copyright &copy; 2017 Praxis. Todos los derechos reservados.</li>
+            </div>
+      		</ul>
+      	</nav>
+      </div>
+    </header>
+    <div id="gear-animation4">
+      <img src="assets/images/engranaje_x4.png" class="gear4" alt="">
+    </div>
+    <div id="gear-animation5">
+      <img src="assets/images/engranaje_x5.png" class="gear5" alt="">
+    </div>
+    <section id="aboutus-content" class="flex">
+      <div id="nosotros">
+        <div class="container text-justify">
+          <p class="nic"><span>Praxis</span> sistematiza y ordena procesos, pone a
+            disposición de los responsables de conducir e
+            instrumentar las necesidades privadas así como
+            las políticas públicas de herramientas para hacer
+            más eficaz el ejercicio de la función pública,
+            coadyuvando en la obtención de resultados
+            rápidos y medibles.</p>
+          <!-- <p class="nic1"> Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit. Inventore, facilis consequuntur dignissimos, eius
+          quae aut ea exercitationem ratione quasi ipsa.</p>
+          <p class="nic2">Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit. Aut excepturi, maiores velit? Animi explicabo velit eius error,
+          qui libero, dolor nesciunt obcaecati, soluta dignissimos itaque
+          voluptates, cum maiores magnam. Veritatis accusantium minus, ratione
+          repellendus sunt ipsum perferendis animi expedita nisi quas id vitae,
+          non quidem aspernatur cum quaerat libero nam.</p> -->
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div id="main-footer">
+        <img src="assets/images/praxis-logo.png" alt="">
+        <div class="flex">
+          <i class="fa fa-facebook socialnet" aria-hidden="true"></i>
+          <i class="fa fa-twitter socialnet2" aria-hidden="true"></i>
+        </div>
+      </div>
+    </footer>
+    <script>
+    $(document).ready(function(){
+    $(".menu-toggle").on('click', function() {
+      $(this).toggleClass("on");
+      $('.menu-section').toggleClass("on");
+      $("nav ul").toggleClass('hidden');
+    });
+    $('.nic').fadeIn(1000);
+    $('#nosotros').on("fadeIn", function() {
+      $(this).addClass("slideFromLeft");
+    });
+
+    $('.nic1').fadeIn();
+    $('#nosotros').fadeIn(2000, function() {
+      $(this).addClass("slideFromLeft");
+    });
+
+    $('.nic2').fadeIn();
+    $('#nosotros').on("fadeIn", function() {
+      $(this).addClass("slideFromLeft");
+    });
+  });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,561 @@
+/* line 1, ../sass/services.scss */
+.services-cont {
+  width: 100%;
+  margin: 0 auto;
+  color: #FFF;
+  height: 670px;
+  display: block;
+}
+/* line 7, ../sass/services.scss */
+.services-cont h2 {
+  padding-left: 5%;
+}
+
+/* line 12, ../sass/services.scss */
+.services-mobile {
+  display: none;
+}
+
+/* line 16, ../sass/services.scss */
+.services-mosaic {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  height: 670px;
+}
+/* line 21, ../sass/services.scss */
+.services-mosaic h3 {
+  font-weight: normal !important;
+  text-shadow: 1px 1px rgba(62, 62, 62, 0.2);
+}
+
+/* line 27, ../sass/services.scss */
+.mini-mosaic {
+  width: 1007px;
+}
+/* line 29, ../sass/services.scss */
+.mini-mosaic img {
+  line-height: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: block;
+  float: left;
+}
+
+/* line 43, ../sass/services.scss */
+.services-back i {
+  vertical-align: middle;
+  font-weight: 100;
+  font-size: 60px;
+  color: #bec1c3;
+  position: absolute;
+  top: 0;
+  cursor: pointer;
+  vertical-align: bottom;
+  text-align: right;
+  margin-top: 12px;
+}
+
+/* line 57, ../sass/services.scss */
+.gestion-contenido, .salud-contenido, .socialurbano-contenido, .alimentos-contenido, .tecnoinfo-contenido, .seguridad-contenido, .construccion-contenido {
+  display: none;
+  background-color: #656668;
+  width: 100%;
+  height: 640px;
+  float: left;
+  padding: 30px;
+  letter-spacing: 1px;
+  cursor: initial;
+}
+/* line 66, ../sass/services.scss */
+.gestion-contenido h1, .salud-contenido h1, .socialurbano-contenido h1, .alimentos-contenido h1, .tecnoinfo-contenido h1, .seguridad-contenido h1, .construccion-contenido h1 {
+  margin-top: 15%;
+  margin-left: 25px;
+  font-size: 32px;
+  color: #333333;
+}
+/* line 72, ../sass/services.scss */
+.gestion-contenido p, .salud-contenido p, .socialurbano-contenido p, .alimentos-contenido p, .tecnoinfo-contenido p, .seguridad-contenido p, .construccion-contenido p {
+  font-weight: 100;
+  font-size: 22px;
+  text-align: justify;
+  margin-left: 80px;
+  width: 70%;
+}
+
+/* line 81, ../sass/services.scss */
+.services-img {
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+  height: 670px;
+}
+/* line 86, ../sass/services.scss */
+.services-img h3 {
+  color: #fff !important;
+  font-size: 16px !important;
+  position: absolute !important;
+  bottom: 37%;
+  left: 228px;
+  text-align: center;
+  margin-bottom: 15px !important;
+  font-weight: bold !important;
+  letter-spacing: 1px;
+  background-color: #656668;
+  width: 125px;
+  padding: 3px;
+}
+/* line 100, ../sass/services.scss */
+.services-img h4 {
+  color: #fff !important;
+  font-size: 17px !important;
+  position: absolute !important;
+  bottom: 0;
+  left: 253px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 15px !important;
+  font-weight: bold !important;
+  letter-spacing: 1px;
+  background-color: #656668;
+  width: 100px;
+  padding: 3px;
+}
+
+/* line 118, ../sass/services.scss */
+#mosaic-section1 h3 {
+  color: #fff !important;
+  font-size: 16px !important;
+  position: absolute !important;
+  text-align: center;
+  margin: 0;
+  left: 498px;
+  top: 325px;
+  font-weight: bold !important;
+  letter-spacing: 1px;
+  background-color: #656668;
+  width: 100px;
+  padding: 3px;
+}
+/* line 132, ../sass/services.scss */
+#mosaic-section1 h4 {
+  color: #fff !important;
+  font-size: 16px !important;
+  position: absolute !important;
+  right: 3px;
+  margin: 0;
+  top: 325px;
+  text-align: center;
+  font-weight: bold !important;
+  letter-spacing: 1px;
+  background-color: #656668;
+  width: 124px;
+  padding: 3px;
+}
+
+/* line 148, ../sass/services.scss */
+.img1 {
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+}
+/* line 152, ../sass/services.scss */
+.img1 h3 {
+  top: 230px;
+  left: 50px;
+}
+/* line 155, ../sass/services.scss */
+.img1 h3 i {
+  vertical-align: middle;
+  line-height: 30px;
+  font-size: 34px;
+}
+
+/* line 163, ../sass/services.scss */
+.img2 {
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+}
+/* line 167, ../sass/services.scss */
+.img2 h3 {
+  top: 230px;
+  left: 330px;
+}
+/* line 170, ../sass/services.scss */
+.img2 h3 i {
+  vertical-align: middle;
+  line-height: 30px;
+  font-size: 34px;
+}
+
+/* line 178, ../sass/services.scss */
+.img3 {
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+}
+/* line 182, ../sass/services.scss */
+.img3 h3 {
+  top: 230px;
+  left: 600px;
+}
+/* line 185, ../sass/services.scss */
+.img3 h3 i {
+  vertical-align: middle;
+  line-height: 30px;
+  font-size: 34px;
+}
+
+/* line 194, ../sass/services.scss */
+#mosaic-section2 h3 {
+  color: #fff !important;
+  font-size: 16px !important;
+  position: absolute !important;
+  text-align: center;
+  margin-bottom: 15px !important;
+  font-weight: bold !important;
+  letter-spacing: 1px;
+  background-color: #656668;
+  width: 144px;
+  padding: 3px;
+}
+/* line 206, ../sass/services.scss */
+#mosaic-section2 h4 {
+  color: #fff !important;
+  font-size: 16px !important;
+  position: absolute !important;
+  text-align: center;
+  margin-bottom: 15px !important;
+  font-weight: bold !important;
+  letter-spacing: 1px;
+  background-color: #656668;
+  width: 104px;
+  padding: 3px;
+}
+/* line 218, ../sass/services.scss */
+#mosaic-section2 h5 {
+  color: #fff !important;
+  font-size: 16px !important;
+  position: absolute !important;
+  text-align: center;
+  margin-bottom: 15px !important;
+  font-weight: bold !important;
+  letter-spacing: 1px;
+  background-color: #656668;
+  width: 149px;
+  padding: 3px;
+}
+
+/* line 232, ../sass/services.scss */
+.img4 {
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+}
+/* line 236, ../sass/services.scss */
+.img4 h3 {
+  top: 585px;
+  left: 185px;
+  line-height: 16px;
+}
+/* line 240, ../sass/services.scss */
+.img4 h3 i {
+  vertical-align: middle;
+  line-height: 30px;
+  font-size: 34px;
+}
+
+/* line 248, ../sass/services.scss */
+.img5 {
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+}
+/* line 252, ../sass/services.scss */
+.img5 h4 {
+  top: 585px;
+  left: 560px;
+}
+/* line 255, ../sass/services.scss */
+.img5 h4 i {
+  vertical-align: middle;
+  line-height: 30px;
+  font-size: 34px;
+}
+
+/* line 263, ../sass/services.scss */
+.img6 {
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+}
+/* line 267, ../sass/services.scss */
+.img6 h5 {
+  top: 565px;
+  left: 850px;
+}
+/* line 270, ../sass/services.scss */
+.img6 h5 i {
+  vertical-align: middle;
+  line-height: 30px;
+  font-size: 34px;
+}
+
+/* line 278, ../sass/services.scss */
+.img-wrapper {
+  float: left;
+  width: 602px;
+  height: 383px;
+}
+
+/* line 284, ../sass/services.scss */
+.img-wrapper2 {
+  float: left;
+  width: 405px;
+  height: 383px;
+}
+
+/* line 290, ../sass/services.scss */
+.img-wrapper3 {
+  float: left;
+  width: 335px;
+  height: 400px;
+}
+
+/* line 296, ../sass/services.scss */
+#mosaic-section1 {
+  width: 100%;
+}
+
+/* line 300, ../sass/services.scss */
+#mosaic-section2 {
+  width: 100%;
+}
+
+/* line 304, ../sass/services.scss */
+#gestiongob {
+  cursor: pointer;
+}
+
+/* line 308, ../sass/services.scss */
+#salud {
+  cursor: pointer;
+}
+
+/* line 312, ../sass/services.scss */
+#gestiongobimg {
+  display: none;
+  z-index: 1;
+  background-image: url("../assets/images/services-section1c.png");
+  width: 359px;
+  height: 700px;
+}
+
+/* line 320, ../sass/services.scss */
+#saludimg {
+  display: none;
+  z-index: 1;
+  background-image: url("../assets/images/services-section2c.png");
+  width: 359px;
+  height: 700px;
+}
+
+/* line 328, ../sass/services.scss */
+#socialurbanoimg {
+  display: none;
+  z-index: 1;
+  background-image: url("../assets/images/services-section3c.png");
+  width: 359px;
+  height: 700px;
+}
+
+/* line 336, ../sass/services.scss */
+#alimentosimg {
+  display: none;
+  z-index: 1;
+  background-image: url("../assets/images/services-section4c.png");
+  width: 359px;
+  height: 700px;
+}
+
+/* line 344, ../sass/services.scss */
+#tecinfoimg {
+  display: none;
+  z-index: 1;
+  background-image: url("../assets/images/services-section5c.png");
+  width: 359px;
+  height: 700px;
+}
+
+/* line 352, ../sass/services.scss */
+#seguridadimg {
+  display: none;
+  z-index: 1;
+  background-image: url("../assets/images/services-section6c.png");
+  width: 359px;
+  height: 700px;
+}
+
+/* line 360, ../sass/services.scss */
+#construccionimg {
+  display: none;
+  z-index: 1;
+  background-image: url("../assets/images/services-section8c.png");
+  width: 359px;
+  height: 700px;
+}
+
+/* line 368, ../sass/services.scss */
+#construccionimg {
+  display: none;
+  z-index: 1;
+  background-image: url("../assets/images/services-section7c.png");
+  width: 359px;
+  height: 700px;
+}
+
+/* line 376, ../sass/services.scss */
+#img0 {
+  z-index: 1;
+  background-image: url("../assets/images/services-section1a.png");
+  width: 359px;
+  height: 433px;
+  filter: contrast(100%);
+  transition: 2s ease;
+}
+
+/* line 384, ../sass/services.scss */
+#img0:hover {
+  filter: contrast(150%);
+}
+
+/* line 387, ../sass/services.scss */
+#img1 {
+  background-image: url("../assets/images/services-section2a.png");
+  width: 359px;
+  height: 300px;
+  filter: contrast(100%);
+  transition: 2s ease;
+}
+/* line 393, ../sass/services.scss */
+#img1:hover {
+  filter: contrast(170%);
+}
+
+/* line 397, ../sass/services.scss */
+#img2 {
+  background-image: url("../assets/images/services-section3a.png");
+  width: 605px;
+  height: 383px;
+  filter: contrast(100%);
+  transition: 2s ease;
+}
+/* line 403, ../sass/services.scss */
+#img2:hover {
+  filter: contrast(120%);
+}
+
+/* line 407, ../sass/services.scss */
+#img3 {
+  background-image: url("../assets/images/services-section4a.png");
+  width: 402px;
+  height: 383px;
+  filter: contrast(100%);
+  transition: 2s ease;
+}
+/* line 413, ../sass/services.scss */
+#img3:hover {
+  filter: contrast(170%);
+}
+
+/* line 417, ../sass/services.scss */
+#img4 {
+  background-image: url("../assets/images/services-section5a.png");
+  background-position: top;
+  width: 335px;
+  height: 350px;
+  filter: contrast(100%);
+  transition: 2s ease;
+}
+/* line 424, ../sass/services.scss */
+#img4:hover {
+  filter: contrast(170%);
+}
+
+/* line 428, ../sass/services.scss */
+#img5 {
+  background-image: url("../assets/images/services-section6a.png");
+  width: 335px;
+  height: 350px;
+  filter: contrast(100%);
+  transition: 2s ease;
+}
+/* line 434, ../sass/services.scss */
+#img5:hover {
+  filter: contrast(150%);
+}
+
+/* line 438, ../sass/services.scss */
+#img6 {
+  background-image: url("../assets/images/services-section7a.png");
+  width: 335px;
+  height: 350px;
+  filter: contrast(100%);
+  transition: 2s ease;
+}
+/* line 444, ../sass/services.scss */
+#img6:hover {
+  filter: contrast(150%);
+}
+
+/* line 448, ../sass/services.scss */
+#img7 {
+  background-image: url("../assets/images/services-section8a.png");
+  width: 252px;
+  height: 300px;
+  filter: contrast(100%);
+  transition: 2s ease;
+}
+/* line 454, ../sass/services.scss */
+#img7:hover {
+  filter: contrast(150%);
+}
+
+/* line 459, ../sass/services.scss */
+#img00 {
+  display: none;
+  z-index: 10;
+  background-image: url("../assets/images/services-section1b.png");
+  width: 359px;
+}
+
+/* line 466, ../sass/services.scss */
+#img11 {
+  display: none;
+}
+
+/* line 470, ../sass/services.scss */
+#img22 {
+  display: none;
+}
+
+/* line 474, ../sass/services.scss */
+#img33 {
+  display: none;
+}
+
+/* line 478, ../sass/services.scss */
+#img44 {
+  display: none;
+}
+
+/* line 482, ../sass/services.scss */
+#img55 {
+  display: none;
+}
+
+/* line 486, ../sass/services.scss */
+#img66 {
+  display: none;
+}

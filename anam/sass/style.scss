@@ -1,0 +1,428 @@
+@font-face {
+    font-family: "AvenirR";
+    src: url(../assets/fonts/avenir-regular.otf);
+}
+@font-face {
+    font-family: "AvenirM";
+    src: url(../assets/fonts/avenir-med.otf);
+}
+@font-face {
+    font-family: "AvenirB";
+    src: url(../assets/fonts/avenir-bold.otf);
+}
+
+$primary-black: #000000;
+$primary-white: #FFFFFF;
+$primary-gray: #787878;
+$primary-gray2: #bebebe;
+$primary-grayhover: #595959;
+$primary-orange1: #de6f07;
+$primary-orange2: #e3a12d;
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "AvenirR";
+  background-color: $primary-black;
+  background-image: url('../assets/images/main-background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFF;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+   flex: 1 0 auto;
+     font-family: "AvenirR";
+ }
+
+nav{
+  background-color: $primary-black;
+  height: 80px;
+  line-height: 80px;
+  ul a{
+    padding: 0px 20px;
+  }
+  img{
+    width: 170px;
+    margin-top: 10px;
+  }
+  .brand-logo{
+    position: static;
+  }
+  .right{
+    margin-left: 60px;
+  }
+  .btn{
+    background-color: $primary-gray;
+    text-transform: capitalize;
+    border-radius: 0.5px;
+    &:hover{
+      background-color: $primary-grayhover;
+    }
+  }
+}
+
+.textorange{
+  color: $primary-orange1;
+}
+
+.nav-center{
+  height: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#slider{
+
+}
+
+.carousel{
+  .item1{
+    background-image: url('../assets/images/img-slider1.png');
+    background-position: center;
+    background-size: cover;
+  }
+  .item2{
+    background-image: url('../assets/images/img-slider2.png');
+    background-position: center;
+    background-size: cover;
+  }
+  .item3{
+    background-image: url('../assets/images/img-slider3.png');
+    background-position: center;
+    background-size: cover;
+  }
+  blockquote{
+    border-left: 3px solid;
+    border-color: $primary-orange2;
+    margin-left: 150px;
+    height: 150px;
+    margin-top: 15%;
+    h2{
+      font-size: 42px !important;
+      font-family: "AvenirM";
+      line-height: normal !important;
+      font-weight: 900 !important;
+    }
+  }
+  .border-red{
+    background-image: url('../assets/images/background-slider3.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    img{
+      position: absolute;
+      margin-top: 21%;
+      margin-left: 69%;
+    }
+  }
+  .border-red blockquote{
+    border-left: 1px solid;
+    border-color: #ff0000;
+    height: 100px;
+    margin-top: 20%;
+    margin-right: 5%;
+    position: absolute;
+    right: 0;
+  }
+  .border-red blockquote h2{
+    font-size: 24px !important;
+    color: $primary_grayhover;
+  }
+}
+
+.carousel .carousel-item img {
+    width: 12%;
+}
+
+#services{
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  top: 25%;
+  right: 0;
+  background-image: url('../assets/images/bg-services.png');
+  background-size: cover;
+  z-index: 5;
+  .services-menu{
+    cursor: pointer;
+    h3{
+      font-size: 28px;
+      font-family: 'AvenirM';
+      font-weight: 900;
+      color: $primary-white;
+      margin: 0;
+      padding: 24px 30px;
+    }
+    ul{
+      padding: 0;
+      margin: 0;
+    }
+    ul li{
+      float: right;
+      margin-top: 10px;
+      padding: 2px 10px;
+      border-right: 1px solid $primary-orange2;
+    }
+    .hide-icons{
+      display: none;
+      li{
+        font-size: 9px;
+        text-align: center;
+      }
+      h4{
+        font-family: 'AvenirB';
+        font-size: 12px;
+        text-align: center;
+        width: 100%;
+      }
+      #dewatering-content{
+        display: none;
+        position: absolute;
+        top: 100px;
+        width: 600px;
+        height: 300px;
+        background-color: rgba(0, 0, 0, 0.82);
+        img{
+          margin-left: 5%;
+        }
+        p{
+          text-align: justify;
+          font-size: 1rem;
+          margin: 0 5%;
+        }
+      }
+    }
+  }
+}
+
+#introduction{
+  z-index: 2;
+  justify-content: center;
+  display: none;
+  .valign-wrapper{
+    justify-content: center;
+  }
+  .intro-content{
+    background-color: $primary-black;
+    width: 50%;
+    height: 70%;
+    blockquote{
+      border-left: 3px solid;
+      border-color: $primary-orange2;
+      margin-left: 40px;
+      height: 80px;
+      margin-top: 5%;
+      font-size: 36px;
+      line-height: 73px;
+      font-family: "AvenirM";
+      font-weight: 900 !important;
+    }
+    p{
+      text-align: justify;
+      font-size: 1.1rem;
+      margin-left: 12%;
+      margin-right: 5%;
+      padding-bottom: 30px;
+    }
+  }
+}
+
+#vision{
+  background-image: url('../assets/images/bg-vision.png');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: none;
+  .vision-content{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "AvenirM";
+    font-weight: 900 !important;
+    blockquote{
+      border-left: 3px solid;
+      border-color: $primary-orange2;
+      height: 70px;
+      font-size: 26px;
+      line-height: 26px;
+      padding-left: 10px;
+      padding-top: 10px;
+    }
+    p{
+      font-size: 36px;
+      margin-right: 10px;
+    }
+  }
+}
+
+#industries{
+  z-index: 3;
+  display: none;
+  .valign-wrapper{
+    justify-content: center;
+  }
+  .indus-content{
+    background-color: $primary-black;
+    width: 65%;
+    height: 75%;
+    blockquote{
+      border-left: 3px solid;
+      border-color: $primary-orange2;
+      margin-left: 40px;
+      height: 80px;
+      margin-top: 3%;
+      padding-top: 7px;
+      padding-left: 5px;
+      font-size: 34px;
+      line-height: 34px;
+      font-family: "AvenirM";
+      font-weight: 900 !important;
+      .textorange{
+        font-size: 24px;
+      }
+    }
+    img{
+      margin-left: 2%;
+      width: 70%;
+    }
+    p{
+      text-align: justify;
+      font-size: 1rem;
+      margin-left: 2%;
+      margin-right: 2%;
+      padding-bottom: 30px;
+    }
+  }
+}
+
+#gallery{
+  background-image: url('../assets/images/bg-gallery.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: none;
+  .valign-wrapper{
+    justify-content: center;
+  }
+  .gallery-content{
+    background-color: $primary-black;
+    width: 70%;
+    height: 90%;
+    blockquote{
+      border-left: 3px solid;
+      border-color: $primary-orange2;
+      margin-left: 40px;
+      height: 70px;
+      margin-top: 2%;
+      padding-top: 20px;
+      padding-left: 5px;
+      font-size: 34px;
+      line-height: 34px;
+      font-family: "AvenirM";
+      font-weight: 900 !important;
+    }
+    .slider{
+      height: 300px !important;
+      padding: 30px;
+      .slides{
+        height: 300px !important;
+        background-color: $primary-black;
+        li{
+          width: 90%;
+          margin: 0 5%;
+        }
+      }
+      .indicators{
+        position: inherit;
+        .indicator-item{
+          background-color: $primary-gray;
+          margin: 0px 4px;
+          height: 14px;
+          width: 14px;
+        }
+        .indicator-item.active{
+          background-color: $primary-orange1;
+        }
+      }
+    }
+  }
+}
+
+$contactheight: 70%;
+
+#contact{
+  background-image: url('../assets/images/bg-contact1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: none;
+  .valign-wrapper{
+    justify-content: center;
+  }
+  .contact-content{
+    background-color: $primary-black;
+    width: 70%;
+    height: $contactheight;
+    h2{
+      width: 100%;
+      text-align: center;
+      background-image: url('../assets/images/bg-contact2.png');
+      font-family: 'AvenirM';
+      font-weight: 900;
+      font-size: 32px;
+      margin: 0;
+      padding: 20px 0;
+    }
+    .map{
+      background-image: url('../assets/images/contact-map.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 80%;
+    }
+  }
+  .contact-info{
+    text-align: center;
+  }
+}
+
+footer.page-footer {
+  color: $primary-grayhover;
+  background-color: $primary-gray2 !important;
+  padding-top: 0;
+  .container{
+    justify-content: space-between;
+  }
+  .footer-copyright {
+    color: $primary-grayhover;
+    font-size: 12px;
+    background-color: $primary-gray2 !important;
+  }
+  .certification{
+    img{
+      margin: 0 5px;
+    }
+  }
+  .socialnet{
+    background-color: $primary-black;
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+    line-height: 36px;
+    text-align: center;
+    margin: 0 5px;
+  }
+}

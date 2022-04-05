@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>U-SAVE</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" media="screen,projection">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/screen.css">
+    <script src="https://use.fontawesome.com/eafa080988.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="shortcut icon" href="favicon.ico">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-wrapper">
+          <div class="nav-center">
+            <a href="index.php" class="brand-logo"><img src="assets/images/logo-usave.png" alt=""></a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down valign-wrapper">
+              <li><a href="index.html">INICIO</a></li>
+              <li><a href="reservar.php">RESERVA</a></li>
+              <li><a href="#">SEGUROS</a></li>
+              <li><a href="flotilla.php">NUESTRA FLOTILLA</a></li>
+              <li><a href="contacto.html">CONTACTO</a></li>
+              <li class="btn-net"><a class="socialnet" href="https://www.facebook.com/usavemexico" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li class="btn-net"><a class="socialnet" href="https://twitter.com/usavemexico" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li class="btn-net"><a class="socialnet" href="https://plus.google.com/114870054196917032127" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+            </ul>
+          <ul class="side-nav" id="mobile-demo">
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="reservar.php">RESERVA</a></li>
+            <li><a href="#">SEGUROS</a></li>
+            <li><a href="flotilla.php">NUESTRA FLOTILLA</a></li>
+            <li><a href="contacto.html">CONTACTO</a></li>
+            <li class="btn-net"><a class="socialnet" href="https://www.facebook.com/usavemexico" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li class="btn-net"><a class="socialnet" href="https://twitter.com/usavemexico" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li class="btn-net"><a class="socialnet" href="https://plus.google.com/114870054196917032127" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+          </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+    <section id="seguros">
+      <div class="content">
+        <h1>SEGUROS</h1>
+        <img src="assets/images/banner-insurance.png" alt="Seguros">
+        <div class="insurance-text">
+          <div class="row">
+            <div class="col s3">- DDW + PAI Full cover</div>
+            <div class="col s9">- Cero deducible en caso de accidente o robo
+              total del auto, gastos médicos a ocupantes, daños a terceros
+              limitado.</div>
+          </div>
+          <div class="row">
+            <div class="col s3">- CDW + PAI Collision</div>
+            <div class="col s9">- El cliente es responsable del 10% del valor
+              del auto en caso de accidente, 20% en caso de robo, gastos medicos
+              a ocupantes del auto.</div>
+          </div>
+          <div class="row">
+            <div class="col s3">- ALI</div>
+            <div class="col s9">- Extensión de daños a terceros por un monto de
+            1 millón de pesos.</div>
+          </div>
+          <div class="row">
+            <div class="col s6">* Solo un conductor por auto, los adicionales con costo.</div>
+            <div class="col s6">* Silla de bebe como complemento o booster seat.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+      <footer class="page-footer">
+        <div class="footer-copyright">
+          <div class="container valign-wrapper">
+            <div class="center valign">
+              Copyright © 2017 U-SAVE Todos los derechos reservados.
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $(".button-collapse").sideNav();
+      $('main').height(screen.height - 230);
+      $('#seguros').height(screen.height - 230);
+    });
+    </script>
+  </body>
+</html>

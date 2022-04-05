@@ -1,0 +1,2021 @@
+@font-face {
+  font-family: "AvenirR";
+  src: url(../assets/fonts/avenir-regular.otf);
+}
+@font-face {
+  font-family: "AvenirM";
+  src: url(../assets/fonts/avenir-med.otf);
+}
+@font-face {
+  font-family: "AvenirB";
+  src: url(../assets/fonts/avenir-bold.otf);
+}
+/* line 26, ../sass/style.scss */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "AvenirR";
+  background-color: #FFFFFF;
+  color: #000;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+/* line 37, ../sass/style.scss */
+main {
+  flex: 1 0 auto;
+  font-family: "AvenirR";
+}
+
+/* line 42, ../sass/style.scss */
+nav {
+  background: #f8ec8b;
+  background: -moz-linear-gradient(top, #f8ec8b 0%, #f4dc52 63%, #f4dc52 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #f8ec8b), color-stop(63%, #f4dc52), color-stop(100%, #f4dc52));
+  background: -webkit-linear-gradient(top, #f8ec8b 0%, #f4dc52 63%, #f4dc52 100%);
+  background: -o-linear-gradient(top, #f8ec8b 0%, #f4dc52 63%, #f4dc52 100%);
+  background: -ms-linear-gradient(top, #f8ec8b 0%, #f4dc52 63%, #f4dc52 100%);
+  background: linear-gradient(to bottom, #f8ec8b 0%, #f4dc52 63%, #f4dc52 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8ec8b', endColorstr='#f4dc52', GradientType=0 );
+  height: 90px;
+  line-height: 90px;
+}
+/* line 53, ../sass/style.scss */
+nav ul a {
+  padding: 0px 20px;
+  color: #3359a2;
+  font-weight: 900;
+  font-size: 14px;
+}
+/* line 58, ../sass/style.scss */
+nav ul a:hover {
+  background-color: transparent;
+}
+/* line 62, ../sass/style.scss */
+nav img {
+  width: 170px;
+  margin-top: 10px;
+}
+/* line 66, ../sass/style.scss */
+nav .brand-logo {
+  position: static;
+  height: 75px;
+}
+/* line 70, ../sass/style.scss */
+nav .right {
+  margin-left: 60px;
+}
+/* line 73, ../sass/style.scss */
+nav .btn {
+  background-color: #787878;
+  text-transform: capitalize;
+  border-radius: 0.5px;
+}
+/* line 78, ../sass/style.scss */
+nav .nav-wrapper {
+  box-shadow: 0px 9px 20px 0px rgba(0, 0, 0, 0.21);
+  z-index: 1000;
+}
+
+/* line 84, ../sass/style.scss */
+.side-nav {
+  background-color: #000000;
+  height: auto;
+}
+/* line 87, ../sass/style.scss */
+.side-nav a {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* line 93, ../sass/style.scss */
+.textorange {
+  color: #de6f07;
+}
+
+/* line 97, ../sass/style.scss */
+.nav-center {
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 104, ../sass/style.scss */
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 50px;
+}
+
+/* line 116, ../sass/style.scss */
+.carousel .carousel-slider {
+  height: 600px;
+}
+/* line 119, ../sass/style.scss */
+.carousel .item1 {
+  background-image: url("../assets/images/slider-1.png");
+  background-position: bottom center;
+  background-size: cover;
+}
+/* line 124, ../sass/style.scss */
+.carousel .item2 {
+  background-image: url("../assets/images/slider-2.png");
+  background-position: bottom center;
+  background-size: cover;
+}
+/* line 129, ../sass/style.scss */
+.carousel .item3 {
+  background-image: url("../assets/images/slider-3.png");
+  background-position: bottom center;
+  background-size: cover;
+}
+/* line 134, ../sass/style.scss */
+.carousel .textblack {
+  color: #000;
+}
+/* line 137, ../sass/style.scss */
+.carousel .textblue {
+  color: #3359a2;
+}
+/* line 140, ../sass/style.scss */
+.carousel blockquote {
+  border-left: 3px solid;
+  border-color: #e3a12d;
+  margin-left: 150px;
+  height: 150px;
+  margin-top: 15%;
+}
+/* line 146, ../sass/style.scss */
+.carousel blockquote h2 {
+  font-size: 42px !important;
+  font-family: "AvenirM";
+  line-height: normal !important;
+  font-weight: 900 !important;
+}
+/* line 154, ../sass/style.scss */
+.carousel .border-red img {
+  position: absolute;
+  margin-top: 14%;
+  margin-left: 60%;
+}
+/* line 160, ../sass/style.scss */
+.carousel .border-red blockquote {
+  border: none;
+  height: 100px;
+  margin-top: 17%;
+  position: absolute;
+  right: 10%;
+}
+/* line 167, ../sass/style.scss */
+.carousel .border-red blockquote h2 {
+  font-size: 36px !important;
+  color: #FFFFFF;
+  font-weight: 900;
+}
+
+/* line 174, ../sass/style.scss */
+.carousel .carousel-item img {
+  width: 11%;
+}
+
+/* line 178, ../sass/style.scss */
+.carousel .indicators .indicator-item {
+  height: 12px;
+  width: 12px;
+  margin: 24px 6px;
+}
+
+/* line 184, ../sass/style.scss */
+.carousel .indicators .indicator-item.active {
+  background-color: #3359a2;
+}
+
+/* line 189, ../sass/style.scss */
+footer.page-footer {
+  color: #595959;
+  background-color: #FFFFFF !important;
+  padding-top: 0;
+  text-align: center;
+}
+/* line 194, ../sass/style.scss */
+footer.page-footer .container {
+  justify-content: space-between;
+}
+/* line 196, ../sass/style.scss */
+footer.page-footer .container .center {
+  width: 100%;
+}
+/* line 200, ../sass/style.scss */
+footer.page-footer .footer-copyright {
+  color: #595959;
+  font-size: 12px;
+  background-color: #FFFFFF !important;
+  min-height: 20px;
+}
+/* line 207, ../sass/style.scss */
+footer.page-footer .certification img {
+  margin: 0 5px;
+}
+
+/* line 213, ../sass/style.scss */
+.btn-net {
+  width: 50px;
+}
+
+/* line 217, ../sass/style.scss */
+.socialnet i {
+  background-color: #3359a2;
+  color: #FFF;
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+  line-height: 40px;
+  text-align: center;
+}
+
+/* line 227, ../sass/style.scss */
+nav .nav-wrapper i {
+  height: 40px;
+  line-height: 40px;
+}
+
+/* line 236, ../sass/style.scss */
+#main-form .blue-divider {
+  height: 13px;
+  background-color: #3359a2;
+}
+/* line 240, ../sass/style.scss */
+#main-form form {
+  margin-top: 25px;
+  text-align: center;
+}
+/* line 243, ../sass/style.scss */
+#main-form form .btn {
+  width: 250px;
+  background-color: #224689;
+}
+/* line 248, ../sass/style.scss */
+#main-form h2 {
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  background-color: #224689;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  font-weight: 900;
+  margin: 0;
+}
+/* line 259, ../sass/style.scss */
+#main-form .form-content {
+  width: 370px;
+  height: 450px;
+  position: absolute;
+  top: 130px;
+  left: 140px;
+  background-color: #FFFFFF;
+}
+/* line 268, ../sass/style.scss */
+#main-form .rentplace select {
+  appearance: none;
+}
+/* line 272, ../sass/style.scss */
+#main-form .rentplace .select-wrapper input.select-dropdown {
+  margin-left: 25px;
+  width: 88%;
+  font-size: 12px;
+  color: #4f4f4f;
+}
+/* line 278, ../sass/style.scss */
+#main-form .rentplace .select-wrapper .caret {
+  display: none;
+}
+/* line 282, ../sass/style.scss */
+#main-form .rentplace .dropdown-content {
+  margin-left: 25px;
+}
+/* line 284, ../sass/style.scss */
+#main-form .rentplace .dropdown-content li > span {
+  font-size: 12px;
+  color: #224689;
+  line-height: 12px;
+  padding: 15px 5px;
+}
+/* line 292, ../sass/style.scss */
+#main-form .datetimepicker {
+  display: flex;
+}
+/* line 294, ../sass/style.scss */
+#main-form .datetimepicker select {
+  appearance: none;
+}
+/* line 298, ../sass/style.scss */
+#main-form .datetimepicker .select-wrapper input.select-dropdown {
+  margin-left: 5px;
+  width: 88%;
+  font-size: 12px;
+  color: #4f4f4f;
+}
+/* line 304, ../sass/style.scss */
+#main-form .datetimepicker .select-wrapper .caret {
+  display: none;
+}
+/* line 308, ../sass/style.scss */
+#main-form .datetimepicker .dropdown-content {
+  margin-left: 5px;
+}
+/* line 310, ../sass/style.scss */
+#main-form .datetimepicker .dropdown-content li > span {
+  font-size: 12px;
+  color: #224689;
+  line-height: 12px;
+  padding: 10px 16px;
+}
+/* line 318, ../sass/style.scss */
+#main-form .dropdown-content li {
+  min-height: 25px;
+}
+/* line 321, ../sass/style.scss */
+#main-form label {
+  font-size: .85rem;
+  left: .75rem;
+  position: absolute;
+  color: #224689;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+/* line 329, ../sass/style.scss */
+#main-form .datepicker {
+  width: 55%;
+  margin-left: 25px;
+  font-size: .75rem;
+  color: #4f4f4f;
+}
+/* line 335, ../sass/style.scss */
+#main-form .picker__weekday-display {
+  background-color: #3359a2;
+}
+/* line 338, ../sass/style.scss */
+#main-form .picker__date-display {
+  background-color: #224689;
+}
+/* line 341, ../sass/style.scss */
+#main-form .picker__nav--prev:hover, #main-form .picker__nav--next:hover {
+  background: #40629f;
+}
+/* line 344, ../sass/style.scss */
+#main-form .picker__day--selected, #main-form .picker__day--selected:hover, #main-form .picker--focused .picker__day--selected {
+  background-color: #3359a2;
+}
+/* line 347, ../sass/style.scss */
+#main-form .picker__day.picker__day--today {
+  color: #3359a2;
+}
+/* line 350, ../sass/style.scss */
+#main-form .picker__close, #main-form .picker__today {
+  font-size: .9rem;
+  padding: 0 1rem;
+  color: #3359a2;
+}
+/* line 355, ../sass/style.scss */
+#main-form .picker {
+  font-size: 14px;
+}
+/* line 358, ../sass/style.scss */
+#main-form ::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #4f4f4f;
+}
+/* line 361, ../sass/style.scss */
+#main-form :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #4f4f4f;
+  opacity: 1;
+}
+/* line 365, ../sass/style.scss */
+#main-form ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #4f4f4f;
+  opacity: 1;
+}
+/* line 369, ../sass/style.scss */
+#main-form :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #4f4f4f;
+}
+
+/* line 377, ../sass/style.scss */
+#flotilla {
+  text-align: center;
+  color: #fff;
+  overflow: hidden !important;
+  background: #4a6db4;
+}
+/* line 382, ../sass/style.scss */
+#flotilla h2 {
+  color: #FFF;
+  font-size: 42px;
+  font-weight: bold;
+  font-family: "AvenirB";
+  padding-top: 25px;
+  padding-bottom: 5px;
+  margin: 0;
+}
+/* line 391, ../sass/style.scss */
+#flotilla h3 {
+  color: #224689;
+  font-size: 34px;
+  font-weight: bold;
+  font-family: "AvenirB";
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0;
+  text-align: left;
+  padding-left: 50px;
+}
+/* line 402, ../sass/style.scss */
+#flotilla h4 {
+  color: #224689;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  text-align: left;
+  padding-left: 50px;
+}
+/* line 410, ../sass/style.scss */
+#flotilla .slidern {
+  position: relative;
+  margin-top: 20px;
+}
+/* line 413, ../sass/style.scss */
+#flotilla .slidern .car-description {
+  display: flex;
+  width: 595px;
+  margin-left: 20px;
+}
+/* line 418, ../sass/style.scss */
+#flotilla .slidern .title-slide {
+  text-align: center;
+  background-color: #fff;
+  width: 325px;
+}
+/* line 422, ../sass/style.scss */
+#flotilla .slidern .title-slide h2 {
+  background-color: #f1d546;
+  font-size: 32px;
+  padding: 15px 0;
+}
+/* line 428, ../sass/style.scss */
+#flotilla .slidern .desc-slide {
+  width: 240px;
+  text-align: left;
+  height: 375px;
+  margin-top: 22px;
+}
+/* line 433, ../sass/style.scss */
+#flotilla .slidern .desc-slide .row {
+  margin: 0;
+}
+/* line 435, ../sass/style.scss */
+#flotilla .slidern .desc-slide .row .text-icon {
+  padding-left: 25px;
+}
+/* line 438, ../sass/style.scss */
+#flotilla .slidern .desc-slide .row i {
+  font-size: 24px;
+}
+/* line 442, ../sass/style.scss */
+#flotilla .slidern .desc-slide .text p {
+  font-size: 12px;
+  text-align: justify;
+}
+/* line 446, ../sass/style.scss */
+#flotilla .slidern .desc-slide .allinclude {
+  background-color: #f1d546;
+  margin: 0 10px;
+  color: #224689;
+  width: 220px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+/* line 454, ../sass/style.scss */
+#flotilla .slidern .desc-slide .allinclude p {
+  margin: 5px;
+  font-weight: bold;
+}
+/* line 459, ../sass/style.scss */
+#flotilla .slidern .desc-slide .reserve {
+  background-color: #224689;
+  margin: 0 10px;
+  text-align: center;
+  font-family: 'AvenirB';
+  width: 220px;
+  cursor: pointer;
+}
+/* line 466, ../sass/style.scss */
+#flotilla .slidern .desc-slide .reserve p {
+  margin: 10px;
+  font-size: 24px;
+}
+/* line 474, ../sass/style.scss */
+#flotilla .slidern-inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+/* line 480, ../sass/style.scss */
+#flotilla .slidern-open:checked + .slidern-item {
+  position: static;
+  opacity: 100;
+}
+/* line 485, ../sass/style.scss */
+#flotilla .slidern-item {
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  width: calc(100% - 100px);
+  margin: 0 auto;
+  -webkit-transform: translate(100%, 0px);
+  -ms-transform: translate(100%, 0px);
+  transform: translate(100%, 0px);
+  height: 385px;
+}
+/* line 498, ../sass/style.scss */
+#flotilla .slidern-open:checked + .slidern-item {
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+}
+/* line 510, ../sass/style.scss */
+#flotilla .slidern-control {
+  border-radius: 50%;
+  color: #000;
+  opacity: 0.6;
+  cursor: pointer;
+  display: none;
+  font-size: 7rem;
+  height: 40px;
+  line-height: 35px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  cursor: pointer;
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  text-align: center;
+  width: 40px;
+  z-index: 10;
+}
+/* line 530, ../sass/style.scss */
+#flotilla .slidern-control.prev {
+  left: 2%;
+}
+/* line 534, ../sass/style.scss */
+#flotilla .slidern-control.next {
+  right: 2%;
+}
+/* line 538, ../sass/style.scss */
+#flotilla .slidern-control:hover {
+  opacity: 0.8;
+}
+/* line 542, ../sass/style.scss */
+#flotilla #slidern-1:checked ~ .control-1,
+#flotilla #slidern-2:checked ~ .control-2,
+#flotilla #slidern-3:checked ~ .control-3,
+#flotilla #slidern-4:checked ~ .control-4,
+#flotilla #slidern-5:checked ~ .control-5 {
+  display: block;
+}
+/* line 550, ../sass/style.scss */
+#flotilla .slidern1 {
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 85%;
+  margin: 0 auto;
+}
+/* line 557, ../sass/style.scss */
+#flotilla .slidern2 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 85%;
+  margin: 0 auto;
+}
+/* line 564, ../sass/style.scss */
+#flotilla .slidern3 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 85%;
+  margin: 0 auto;
+}
+/* line 571, ../sass/style.scss */
+#flotilla .slidern4 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 85%;
+  margin: 0 auto;
+}
+/* line 579, ../sass/style.scss */
+#flotilla .slidern-indicators {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 2%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 10;
+}
+/* line 591, ../sass/style.scss */
+#flotilla .slidern-indicators li {
+  display: inline-block;
+  margin: 0 5px;
+}
+/* line 596, ../sass/style.scss */
+#flotilla .slidern-bullet {
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 35px;
+}
+/* line 603, ../sass/style.scss */
+#flotilla .slidern-bullet:hover {
+  color: #aaaaaa;
+}
+/* line 607, ../sass/style.scss */
+#flotilla #slidern-1:checked ~ .control-1 ~ .slidern-indicators li:nth-child(1) .slidern-bullet,
+#flotilla #slidern-2:checked ~ .control-2 ~ .slidern-indicators li:nth-child(2) .slidern-bullet,
+#flotilla #slidern-3:checked ~ .control-3 ~ .slidern-indicators li:nth-child(3) .slidern-bullet,
+#flotilla #slidern-4:checked ~ .control-4 ~ .slidern-indicators li:nth-child(4) .slidern-bullet,
+#flotilla #slidern-5:checked ~ .control-5 ~ .slidern-indicators li:nth-child(5) .slidern-bullet {
+  color: #428bca;
+}
+
+/* line 616, ../sass/style.scss */
+.fullcover-cover {
+  width: 100%;
+  background-color: #000;
+  display: none;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  z-index: 1000;
+}
+
+/* line 626, ../sass/style.scss */
+.insurance-fullcover {
+  width: 550px;
+  height: 180px;
+  background-color: #224689;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 22px;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  display: none;
+  z-index: 1001;
+}
+/* line 640, ../sass/style.scss */
+.insurance-fullcover blockquote {
+  border-left: 3px solid;
+  border-color: #aabad7;
+  height: 125px;
+  margin: 0;
+}
+/* line 645, ../sass/style.scss */
+.insurance-fullcover blockquote h2 {
+  font-size: 42px !important;
+  font-family: "AvenirM";
+  line-height: normal !important;
+  font-weight: 900 !important;
+}
+/* line 652, ../sass/style.scss */
+.insurance-fullcover .border-blue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* line 656, ../sass/style.scss */
+.insurance-fullcover .border-blue h2 {
+  font-size: 22px;
+  padding: 0;
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  min-width: 140px;
+}
+/* line 664, ../sass/style.scss */
+.insurance-fullcover .border-blue .fullcover-close {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  cursor: pointer;
+}
+/* line 671, ../sass/style.scss */
+.insurance-fullcover .border-blue blockquote h2 {
+  font-size: 18px !important;
+  color: #FFFFFF;
+  font-weight: 900;
+}
+
+/* line 678, ../sass/style.scss */
+.car-form {
+  display: none;
+}
+/* line 680, ../sass/style.scss */
+.car-form .blue-divider {
+  height: 13px;
+  background-color: #3359a2;
+}
+/* line 683, ../sass/style.scss */
+.car-form .blue-divider .reserve-close {
+  position: absolute;
+  right: 10px;
+  color: #FFF;
+  top: 16px;
+  cursor: pointer;
+}
+/* line 691, ../sass/style.scss */
+.car-form form {
+  margin-top: 25px;
+  text-align: center;
+}
+/* line 694, ../sass/style.scss */
+.car-form form .btn {
+  width: 250px;
+  background-color: #224689;
+}
+/* line 699, ../sass/style.scss */
+.car-form h2 {
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  background-color: #224689;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  font-weight: 900;
+  margin: 0;
+}
+/* line 710, ../sass/style.scss */
+.car-form .form-content {
+  width: 370px;
+  height: 195px;
+  position: absolute;
+  top: 130px;
+  left: 36.5%;
+  z-index: 1002;
+  background-color: #FFFFFF;
+}
+/* line 720, ../sass/style.scss */
+.car-form .rentplace select {
+  appearance: none;
+}
+/* line 724, ../sass/style.scss */
+.car-form .rentplace .select-wrapper input.select-dropdown {
+  margin-left: 25px;
+  width: 88%;
+  font-size: 12px;
+  color: #4f4f4f;
+}
+/* line 730, ../sass/style.scss */
+.car-form .rentplace .select-wrapper .caret {
+  display: none;
+}
+/* line 734, ../sass/style.scss */
+.car-form .rentplace .dropdown-content {
+  margin-left: 25px;
+}
+/* line 736, ../sass/style.scss */
+.car-form .rentplace .dropdown-content li > span {
+  font-size: 12px;
+  color: #224689;
+  line-height: 12px;
+  padding: 15px 5px;
+}
+/* line 744, ../sass/style.scss */
+.car-form .datetimepicker {
+  display: flex;
+}
+/* line 746, ../sass/style.scss */
+.car-form .datetimepicker select {
+  appearance: none;
+}
+/* line 750, ../sass/style.scss */
+.car-form .datetimepicker .select-wrapper input.select-dropdown {
+  margin-left: 5px;
+  width: 88%;
+  font-size: 12px;
+  color: #4f4f4f;
+}
+/* line 756, ../sass/style.scss */
+.car-form .datetimepicker .select-wrapper .caret {
+  display: none;
+}
+/* line 760, ../sass/style.scss */
+.car-form .datetimepicker .dropdown-content {
+  margin-left: 5px;
+}
+/* line 762, ../sass/style.scss */
+.car-form .datetimepicker .dropdown-content li > span {
+  font-size: 12px;
+  color: #224689;
+  line-height: 12px;
+  padding: 10px 16px;
+}
+/* line 770, ../sass/style.scss */
+.car-form .dropdown-content li {
+  min-height: 25px;
+}
+/* line 773, ../sass/style.scss */
+.car-form label {
+  font-size: .85rem;
+  left: .75rem;
+  position: absolute;
+  color: #224689;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+/* line 781, ../sass/style.scss */
+.car-form .datepicker {
+  width: 55%;
+  margin-left: 25px;
+  font-size: .75rem;
+  color: #4f4f4f;
+}
+/* line 787, ../sass/style.scss */
+.car-form .picker__weekday-display {
+  background-color: #3359a2;
+}
+/* line 790, ../sass/style.scss */
+.car-form .picker__date-display {
+  background-color: #224689;
+}
+/* line 793, ../sass/style.scss */
+.car-form .picker__nav--prev:hover, .car-form .picker__nav--next:hover {
+  background: #40629f;
+}
+/* line 796, ../sass/style.scss */
+.car-form .picker__day--selected, .car-form .picker__day--selected:hover, .car-form .picker--focused .picker__day--selected {
+  background-color: #3359a2;
+}
+/* line 799, ../sass/style.scss */
+.car-form .picker__day.picker__day--today {
+  color: #3359a2;
+}
+/* line 802, ../sass/style.scss */
+.car-form .picker__close, .car-form .picker__today {
+  font-size: .9rem;
+  padding: 0 1rem;
+  color: #3359a2;
+}
+/* line 807, ../sass/style.scss */
+.car-form .picker {
+  font-size: 14px;
+}
+/* line 810, ../sass/style.scss */
+.car-form ::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #4f4f4f;
+}
+/* line 813, ../sass/style.scss */
+.car-form :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #4f4f4f;
+  opacity: 1;
+}
+/* line 817, ../sass/style.scss */
+.car-form ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #4f4f4f;
+  opacity: 1;
+}
+/* line 821, ../sass/style.scss */
+.car-form :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #4f4f4f;
+}
+
+/* line 827, ../sass/style.scss */
+#seguros {
+  background: #4a6db4;
+  background-image: url("../assets/images/bg-seguros.png");
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+}
+/* line 834, ../sass/style.scss */
+#seguros .content {
+  margin: 0 auto;
+  width: 100%;
+  position: absolute;
+}
+/* line 838, ../sass/style.scss */
+#seguros .content h1 {
+  color: #FFF;
+  font-size: 42px;
+  font-weight: bold;
+  font-family: "AvenirB";
+}
+/* line 844, ../sass/style.scss */
+#seguros .content img {
+  width: 60%;
+}
+/* line 847, ../sass/style.scss */
+#seguros .content .insurance-text {
+  width: 60%;
+  color: #fff;
+  margin: 0 auto;
+  font-size: 14px;
+  text-align: left;
+}
+
+/* line 857, ../sass/style.scss */
+#contacto {
+  background: #4a6db4;
+  text-align: center;
+}
+/* line 860, ../sass/style.scss */
+#contacto .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+/* line 868, ../sass/style.scss */
+#contacto .contact-text {
+  color: #fff;
+  text-align: left;
+  width: 460px;
+  font-size: 12px;
+}
+/* line 873, ../sass/style.scss */
+#contacto .contact-text .row {
+  margin: 0;
+}
+/* line 876, ../sass/style.scss */
+#contacto .contact-text i {
+  color: #000;
+}
+/* line 880, ../sass/style.scss */
+#contacto .contact-form {
+  width: 90%;
+  margin: 0 auto;
+}
+/* line 884, ../sass/style.scss */
+#contacto .btn {
+  background-color: #f0d54a;
+  text-transform: uppercase;
+  width: 150px;
+  margin: 0 auto;
+  cursor: pointer;
+  color: #FFF;
+  font-weight: bold;
+  font-family: "AvenirB";
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+/* line 895, ../sass/style.scss */
+#contacto .btn:hover {
+  background-color: #e3a12d;
+}
+/* line 899, ../sass/style.scss */
+#contacto .form-container {
+  text-align: right;
+  margin-right: 10px;
+}
+/* line 902, ../sass/style.scss */
+#contacto .form-container input, #contacto .form-container textarea {
+  background-color: #fff;
+  color: #224689;
+  border: none;
+  font-size: 14px;
+  margin-bottom: 10px;
+  height: 35px;
+  padding-left: 10px;
+}
+/* line 911, ../sass/style.scss */
+#contacto .form-container ::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #224689;
+}
+/* line 914, ../sass/style.scss */
+#contacto .form-container :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #224689;
+  opacity: 1;
+}
+/* line 918, ../sass/style.scss */
+#contacto .form-container ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #224689;
+  opacity: 1;
+}
+/* line 922, ../sass/style.scss */
+#contacto .form-container :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #224689;
+}
+/* line 926, ../sass/style.scss */
+#contacto .map {
+  position: relative;
+  width: 100%;
+}
+/* line 929, ../sass/style.scss */
+#contacto .map .overlay {
+  width: 100%;
+  min-height: 230px;
+  position: absolute;
+  top: 0;
+}
+/* line 935, ../sass/style.scss */
+#contacto .map .responsive-map {
+  border: 0;
+  width: 100%;
+  height: 230px;
+}
+
+/* line 944, ../sass/style.scss */
+#reservar {
+  background: #bdbdbd;
+  text-align: center;
+}
+/* line 947, ../sass/style.scss */
+#reservar .final-form {
+  display: none;
+}
+/* line 949, ../sass/style.scss */
+#reservar .final-form .blue-divider {
+  height: 13px;
+  background-color: #3359a2;
+}
+/* line 952, ../sass/style.scss */
+#reservar .final-form .blue-divider .finalform-close {
+  position: absolute;
+  right: 10px;
+  color: #FFF;
+  top: 20px;
+  cursor: pointer;
+}
+/* line 960, ../sass/style.scss */
+#reservar .final-form form {
+  text-align: center;
+  padding: 0px 10px;
+}
+/* line 963, ../sass/style.scss */
+#reservar .final-form form .btn {
+  width: 250px;
+  background-color: #224689;
+}
+/* line 967, ../sass/style.scss */
+#reservar .final-form form input {
+  margin: 0px 0 10px 0;
+}
+/* line 970, ../sass/style.scss */
+#reservar .final-form form input:focus {
+  border-bottom: 1px solid #4a6db4;
+  box-shadow: 0 1px 0 0 #4a6db4;
+}
+/* line 975, ../sass/style.scss */
+#reservar .final-form h2 {
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  background-color: #224689;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  font-weight: 900;
+  margin: 0;
+}
+/* line 986, ../sass/style.scss */
+#reservar .final-form .form-content {
+  width: 370px;
+  height: 500px;
+  position: absolute;
+  top: 110px;
+  left: 36.5%;
+  z-index: 1002;
+  background-color: #FFFFFF;
+}
+/* line 994, ../sass/style.scss */
+#reservar .final-form .form-content p {
+  font-size: 12px;
+  padding: 0px 20px;
+  margin: 0;
+}
+/* line 999, ../sass/style.scss */
+#reservar .final-form .form-content .summary {
+  text-align: left;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #f0d54a;
+}
+/* line 1004, ../sass/style.scss */
+#reservar .final-form .form-content .summary h3 {
+  color: #224689;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+/* line 1010, ../sass/style.scss */
+#reservar .final-form .form-content .summary p {
+  font-size: 13px;
+  text-align: left;
+  margin: 5px 0px;
+  padding: 0;
+}
+/* line 1016, ../sass/style.scss */
+#reservar .final-form .form-content .summary b {
+  color: #224689;
+}
+/* line 1021, ../sass/style.scss */
+#reservar .final-form label {
+  font-size: .85rem;
+  left: .75rem;
+  position: absolute;
+  color: #224689;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+/* line 1030, ../sass/style.scss */
+#reservar .content {
+  width: 90%;
+  margin: 0 auto;
+}
+/* line 1033, ../sass/style.scss */
+#reservar .content h1 {
+  color: #FFF;
+  margin: 0;
+  padding-top: 30px;
+  font-family: "AvenirB";
+  font-size: 42px;
+  letter-spacing: 2px;
+}
+/* line 1041, ../sass/style.scss */
+#reservar .content .top-tabs {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* line 1044, ../sass/style.scss */
+#reservar .content .top-tabs li {
+  color: #3359a2;
+  background-color: #FFF;
+  list-style: none;
+  width: 300px;
+  margin: 0 auto;
+}
+/* line 1052, ../sass/style.scss */
+#reservar .content .top-tabs .selected li {
+  background-color: #3359a2;
+  color: #FFF;
+}
+/* line 1059, ../sass/style.scss */
+#reservar .content #destino .destination-content {
+  background-color: #fff;
+  margin: 0 auto;
+  width: 91%;
+  height: 400px;
+}
+/* line 1065, ../sass/style.scss */
+#reservar .content #destino .destination-content #form .blue-divider {
+  height: 5px;
+  background-color: #f0d54a;
+}
+/* line 1069, ../sass/style.scss */
+#reservar .content #destino .destination-content #form form {
+  margin: 0 auto;
+  text-align: center;
+  width: 90%;
+  margin-top: 25px;
+}
+/* line 1074, ../sass/style.scss */
+#reservar .content #destino .destination-content #form form .btn {
+  width: 250px;
+  background-color: #224689;
+}
+/* line 1078, ../sass/style.scss */
+#reservar .content #destino .destination-content #form form .label {
+  text-align: left;
+  margin-left: 1.4rem;
+}
+/* line 1083, ../sass/style.scss */
+#reservar .content #destino .destination-content #form h2 {
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  background-color: #3359a2;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  font-weight: 900;
+  margin: 0;
+}
+/* line 1097, ../sass/style.scss */
+#reservar .content #destino .destination-content #form .rentplace select {
+  appearance: none;
+}
+/* line 1101, ../sass/style.scss */
+#reservar .content #destino .destination-content #form .rentplace .select-wrapper input.select-dropdown {
+  margin: 0;
+  margin-left: 25px;
+  width: 90%;
+  font-size: .95rem;
+  color: #4f4f4f;
+}
+/* line 1108, ../sass/style.scss */
+#reservar .content #destino .destination-content #form .rentplace .select-wrapper .caret {
+  display: none;
+}
+/* line 1112, ../sass/style.scss */
+#reservar .content #destino .destination-content #form .rentplace .dropdown-content {
+  margin-left: 25px;
+}
+/* line 1114, ../sass/style.scss */
+#reservar .content #destino .destination-content #form .rentplace .dropdown-content li > span {
+  font-size: 16px;
+  color: #224689;
+  line-height: 12px;
+  padding: 15px 5px;
+}
+/* line 1122, ../sass/style.scss */
+#reservar .content #destino .destination-content #form .datetimepicker {
+  display: flex;
+}
+/* line 1124, ../sass/style.scss */
+#reservar .content #destino .destination-content #form .datetimepicker select {
+  appearance: none;
+}
+/* line 1128, ../sass/style.scss */
+#reservar .content #destino .destination-content #form .datetimepicker .select-wrapper input.select-dropdown {
+  margin: 0;
+  margin-left: 5px;
+  width: 88%;
+  font-size: 12px;
+  color: #4f4f4f;
+}
+/* line 1135, ../sass/style.scss */
+#reservar .content #destino .destination-content #form .datetimepicker .select-wrapper .caret {
+  display: none;
+}
+/* line 1139, ../sass/style.scss */
+#reservar .content #destino .destination-content #form .datetimepicker .dropdown-content {
+  margin-left: 5px;
+}
+/* line 1141, ../sass/style.scss */
+#reservar .content #destino .destination-content #form .datetimepicker .dropdown-content li > span {
+  font-size: 16px;
+  color: #224689;
+  line-height: 12px;
+  padding: 10px 10px;
+}
+/* line 1149, ../sass/style.scss */
+#reservar .content #destino .destination-content #form .dropdown-content li {
+  min-height: 25px;
+}
+/* line 1152, ../sass/style.scss */
+#reservar .content #destino .destination-content #form label {
+  font-size: .95rem;
+  left: 1.5rem;
+  color: #224689;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+/* line 1159, ../sass/style.scss */
+#reservar .content #destino .destination-content #form .datepicker {
+  width: 78%;
+  margin-left: 25px;
+  font-size: .95rem;
+  color: #4f4f4f;
+}
+/* line 1165, ../sass/style.scss */
+#reservar .content #destino .destination-content #form .picker__weekday-display {
+  background-color: #3359a2;
+}
+/* line 1168, ../sass/style.scss */
+#reservar .content #destino .destination-content #form .picker__date-display {
+  background-color: #224689;
+}
+/* line 1171, ../sass/style.scss */
+#reservar .content #destino .destination-content #form .picker__nav--prev:hover, #reservar .content #destino .destination-content #form .picker__nav--next:hover {
+  background: #40629f;
+}
+/* line 1174, ../sass/style.scss */
+#reservar .content #destino .destination-content #form .picker__day--selected, #reservar .content #destino .destination-content #form .picker__day--selected:hover, #reservar .content #destino .destination-content #form .picker--focused .picker__day--selected {
+  background-color: #3359a2;
+}
+/* line 1177, ../sass/style.scss */
+#reservar .content #destino .destination-content #form .picker__day.picker__day--today {
+  color: #3359a2;
+}
+/* line 1180, ../sass/style.scss */
+#reservar .content #destino .destination-content #form .picker__close, #reservar .content #destino .destination-content #form .picker__today {
+  font-size: .9rem;
+  padding: 0 1rem;
+  color: #3359a2;
+}
+/* line 1185, ../sass/style.scss */
+#reservar .content #destino .destination-content #form .picker {
+  font-size: 14px;
+}
+/* line 1188, ../sass/style.scss */
+#reservar .content #destino .destination-content #form ::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #4f4f4f;
+}
+/* line 1191, ../sass/style.scss */
+#reservar .content #destino .destination-content #form :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #4f4f4f;
+  opacity: 1;
+}
+/* line 1195, ../sass/style.scss */
+#reservar .content #destino .destination-content #form ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #4f4f4f;
+  opacity: 1;
+}
+/* line 1199, ../sass/style.scss */
+#reservar .content #destino .destination-content #form :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #4f4f4f;
+}
+/* line 1204, ../sass/style.scss */
+#reservar .content #destino .reserve {
+  background-color: #224689;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'AvenirB';
+  width: 220px;
+  color: #FFF;
+  padding: 2px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+/* line 1214, ../sass/style.scss */
+#reservar .content #destino .reserve p {
+  margin: 7px;
+  font-size: 16px;
+  text-align: center;
+}
+/* line 1222, ../sass/style.scss */
+#reservar .content #auto {
+  display: none;
+}
+/* line 1224, ../sass/style.scss */
+#reservar .content #auto .pickcar-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+/* line 1228, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .reservation {
+  width: 210px;
+  background-color: #3359a2;
+  color: #FFF;
+  font-size: 12px;
+  text-align: left;
+  padding: 15px;
+}
+/* line 1235, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .reservation p {
+  margin: 0;
+}
+/* line 1238, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .reservation b {
+  color: #173064;
+}
+/* line 1241, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .reservation h3 {
+  font-size: 18px;
+  font-family: "AvenirB";
+  margin-top: 10px;
+}
+/* line 1247, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content {
+  background-color: #FFF;
+  height: 400px;
+  width: 72%;
+  margin-left: 25px;
+}
+/* line 1252, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content .slidern {
+  position: relative;
+}
+/* line 1254, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content .slidern .car-description {
+  display: flex;
+  height: 400px;
+  margin-top: 10px;
+}
+/* line 1259, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content .slidern .text-icon {
+  text-align: center;
+}
+/* line 1262, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content .slidern h3 {
+  color: #224689;
+  font-size: 34px;
+  font-weight: bold;
+  font-family: "AvenirB";
+  padding-bottom: 5px;
+  margin: 0;
+  text-align: left;
+}
+/* line 1271, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content .slidern h4 {
+  color: #224689;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "AvenirB";
+  margin: 0;
+}
+/* line 1278, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content .slidern h5 {
+  color: #bdbdbd;
+  font-size: 18px;
+  font-family: "AvenirB";
+  margin: 0;
+}
+/* line 1284, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content .slidern p {
+  color: #224689;
+  font-size: 16px;
+  margin: 0;
+  font-family: "AvenirM";
+  margin-bottom: 20px;
+}
+/* line 1291, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content .slidern .title-slide {
+  text-align: center;
+  background-color: #fff;
+  width: 400px;
+}
+/* line 1295, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content .slidern .title-slide h2 {
+  background-color: #f1d546;
+  font-size: 32px;
+  padding: 15px 0;
+  color: #FFF;
+  font-family: "AvenirB";
+  width: 340px;
+}
+/* line 1303, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content .slidern .title-slide .row.flex {
+  margin: 0;
+  width: 80%;
+}
+/* line 1307, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content .slidern .title-slide i {
+  color: #3359a2;
+  font-size: 24px;
+}
+/* line 1312, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content .slidern .desc-slide {
+  text-align: left;
+  height: 400px;
+  width: 250px;
+  padding-top: 60px;
+}
+/* line 1317, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content .slidern .desc-slide .row {
+  margin: 0;
+}
+/* line 1319, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content .slidern .desc-slide .row .text-icon {
+  padding-left: 25px;
+}
+/* line 1322, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content .slidern .desc-slide .row i {
+  font-size: 24px;
+}
+/* line 1326, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content .slidern .desc-slide .text p {
+  font-size: 12px;
+  text-align: justify;
+}
+/* line 1330, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content .slidern .desc-slide .allinclude {
+  background-color: #f1d546;
+  margin: 0 10px;
+  color: #224689;
+  width: 220px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+/* line 1338, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content .slidern .desc-slide .allinclude p {
+  margin: 5px;
+  font-weight: bold;
+}
+/* line 1343, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content .slidern .desc-slide .reserve {
+  background-color: #224689;
+  margin: 0 10px;
+  text-align: center;
+  width: 220px;
+  cursor: pointer;
+}
+/* line 1349, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content .slidern .desc-slide .reserve p {
+  margin: 10px;
+  font-size: 24px;
+  color: #FFF;
+  font-family: 'AvenirB';
+}
+/* line 1359, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content .slidern-inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+/* line 1365, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content .slidern-open:checked + .slidern-item {
+  position: static;
+  opacity: 100;
+}
+/* line 1370, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content .slidern-item {
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  width: calc(100% - 100px);
+  margin: 0 auto;
+  -webkit-transform: translate(100%, 0px);
+  -ms-transform: translate(100%, 0px);
+  transform: translate(100%, 0px);
+  height: 385px;
+}
+/* line 1383, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content .slidern-open:checked + .slidern-item {
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+}
+/* line 1389, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content .slidern-control {
+  border-radius: 50%;
+  color: #000;
+  opacity: 0.6;
+  cursor: pointer;
+  display: none;
+  font-size: 7rem;
+  height: 40px;
+  line-height: 35px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  cursor: pointer;
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  text-align: center;
+  width: 40px;
+  z-index: 10;
+}
+/* line 1409, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content .slidern-control.prev {
+  left: 2%;
+}
+/* line 1413, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content .slidern-control.next {
+  right: 2%;
+}
+/* line 1417, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content .slidern-control:hover {
+  opacity: 0.8;
+}
+/* line 1421, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content #slidern-1:checked ~ .control-1,
+#reservar .content #auto .pickcar-content .auto-content #slidern-2:checked ~ .control-2,
+#reservar .content #auto .pickcar-content .auto-content #slidern-3:checked ~ .control-3,
+#reservar .content #auto .pickcar-content .auto-content #slidern-4:checked ~ .control-4,
+#reservar .content #auto .pickcar-content .auto-content #slidern-5:checked ~ .control-5,
+#reservar .content #auto .pickcar-content .auto-content #slidern-6:checked ~ .control-6,
+#reservar .content #auto .pickcar-content .auto-content #slidern-7:checked ~ .control-7,
+#reservar .content #auto .pickcar-content .auto-content #slidern-8:checked ~ .control-8 {
+  display: block;
+}
+/* line 1432, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content .slidern1 {
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 85%;
+  margin: 0 auto;
+}
+/* line 1439, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content .slidern2 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 85%;
+  margin: 0 auto;
+}
+/* line 1446, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content .slidern3 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 85%;
+  margin: 0 auto;
+}
+/* line 1453, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content .slidern4 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 85%;
+  margin: 0 auto;
+}
+/* line 1460, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content .slidern5 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 85%;
+  margin: 0 auto;
+}
+/* line 1467, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content .slidern6 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 85%;
+  margin: 0 auto;
+}
+/* line 1474, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content .slidern7 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 85%;
+  margin: 0 auto;
+}
+/* line 1481, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content .slidern8 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 85%;
+  margin: 0 auto;
+}
+/* line 1489, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content .slidern-indicators {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 2%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 10;
+}
+/* line 1501, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content .slidern-indicators li {
+  display: inline-block;
+  margin: 0 5px;
+}
+/* line 1506, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content .slidern-bullet {
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 35px;
+}
+/* line 1513, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content .slidern-bullet:hover {
+  color: #aaaaaa;
+}
+/* line 1517, ../sass/style.scss */
+#reservar .content #auto .pickcar-content .auto-content #slidern-1:checked ~ .control-1 ~ .slidern-indicators li:nth-child(1) .slidern-bullet,
+#reservar .content #auto .pickcar-content .auto-content #slidern-2:checked ~ .control-2 ~ .slidern-indicators li:nth-child(2) .slidern-bullet,
+#reservar .content #auto .pickcar-content .auto-content #slidern-3:checked ~ .control-3 ~ .slidern-indicators li:nth-child(3) .slidern-bullet,
+#reservar .content #auto .pickcar-content .auto-content #slidern-4:checked ~ .control-4 ~ .slidern-indicators li:nth-child(4) .slidern-bullet,
+#reservar .content #auto .pickcar-content .auto-content #slidern-5:checked ~ .control-5 ~ .slidern-indicators li:nth-child(5) .slidern-bullet,
+#reservar .content #auto .pickcar-content .auto-content #slidern-6:checked ~ .control-6 ~ .slidern-indicators li:nth-child(6) .slidern-bullet,
+#reservar .content #auto .pickcar-content .auto-content #slidern-7:checked ~ .control-7 ~ .slidern-indicators li:nth-child(7) .slidern-bullet,
+#reservar .content #auto .pickcar-content .auto-content #slidern-8:checked ~ .control-8 ~ .slidern-indicators li:nth-child(8) .slidern-bullet {
+  color: #428bca;
+}
+/* line 1531, ../sass/style.scss */
+#reservar .content #cotizacion {
+  display: none;
+}
+/* line 1533, ../sass/style.scss */
+#reservar .content #cotizacion .price-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+/* line 1537, ../sass/style.scss */
+#reservar .content #cotizacion .price-content .reservation {
+  width: 210px;
+  background-color: #3359a2;
+  color: #FFF;
+  font-size: 12px;
+  text-align: left;
+  padding: 15px;
+  margin-right: 15px;
+}
+/* line 1545, ../sass/style.scss */
+#reservar .content #cotizacion .price-content .reservation p {
+  margin: 0;
+}
+/* line 1548, ../sass/style.scss */
+#reservar .content #cotizacion .price-content .reservation b {
+  color: #173064;
+}
+/* line 1551, ../sass/style.scss */
+#reservar .content #cotizacion .price-content .reservation h3 {
+  font-size: 18px;
+  font-family: "AvenirB";
+  margin-top: 10px;
+}
+/* line 1557, ../sass/style.scss */
+#reservar .content #cotizacion .price-content .car-description {
+  height: 400px;
+  background-color: #fff;
+}
+/* line 1560, ../sass/style.scss */
+#reservar .content #cotizacion .price-content .car-description .wrapper {
+  display: flex;
+}
+/* line 1563, ../sass/style.scss */
+#reservar .content #cotizacion .price-content .car-description .divider {
+  margin: 0 20px;
+}
+/* line 1566, ../sass/style.scss */
+#reservar .content #cotizacion .price-content .car-description h2 {
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+  font-family: "AvenirM";
+  text-align: center;
+  color: #224689;
+}
+/* line 1574, ../sass/style.scss */
+#reservar .content #cotizacion .price-content .car-description h3 {
+  color: #224689;
+  font-size: 26px;
+  font-family: "AvenirB";
+  margin: 0;
+  text-align: center;
+  margin-top: 20px;
+}
+/* line 1582, ../sass/style.scss */
+#reservar .content #cotizacion .price-content .car-description .text-icon {
+  text-align: center;
+}
+/* line 1585, ../sass/style.scss */
+#reservar .content #cotizacion .price-content .car-description h4 {
+  color: #224689;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "AvenirB";
+  margin: 0;
+}
+/* line 1592, ../sass/style.scss */
+#reservar .content #cotizacion .price-content .car-description h5 {
+  color: #bdbdbd;
+  font-size: 18px;
+  font-family: "AvenirB";
+  margin: 0;
+}
+/* line 1598, ../sass/style.scss */
+#reservar .content #cotizacion .price-content .car-description p {
+  color: #224689;
+  font-size: 16px;
+  margin: 0;
+  font-family: "AvenirM";
+  margin-bottom: 20px;
+}
+/* line 1605, ../sass/style.scss */
+#reservar .content #cotizacion .price-content .car-description .insurance-fullcovers {
+  width: 520px;
+  height: auto;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: static;
+  padding: 4px;
+  background-color: #FFF;
+  top: 40%;
+  left: 30%;
+  z-index: 1001;
+}
+/* line 1618, ../sass/style.scss */
+#reservar .content #cotizacion .price-content .car-description .insurance-fullcovers blockquote {
+  border-left: 3px solid;
+  border-color: #aabad7;
+  height: 125px;
+  margin: 0;
+}
+/* line 1623, ../sass/style.scss */
+#reservar .content #cotizacion .price-content .car-description .insurance-fullcovers blockquote p {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+/* line 1627, ../sass/style.scss */
+#reservar .content #cotizacion .price-content .car-description .insurance-fullcovers blockquote h2 {
+  font-size: 42px !important;
+  font-family: "AvenirB";
+  line-height: normal !important;
+  font-weight: 900 !important;
+}
+/* line 1633, ../sass/style.scss */
+#reservar .content #cotizacion .price-content .car-description .insurance-fullcovers blockquote img {
+  width: 60px;
+}
+/* line 1637, ../sass/style.scss */
+#reservar .content #cotizacion .price-content .car-description .insurance-fullcovers .border-blue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 25px;
+}
+/* line 1642, ../sass/style.scss */
+#reservar .content #cotizacion .price-content .car-description .insurance-fullcovers .border-blue h2 {
+  font-size: 22px;
+  padding: 0;
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  min-width: 140px;
+  font-family: "AvenirB";
+}
+/* line 1651, ../sass/style.scss */
+#reservar .content #cotizacion .price-content .car-description .insurance-fullcovers .border-blue img {
+  width: 60px;
+  padding-right: 15px;
+}
+/* line 1656, ../sass/style.scss */
+#reservar .content #cotizacion .price-content .car-description .insurance-fullcovers .border-blue blockquote h2 {
+  font-size: 18px !important;
+  color: #FFFFFF;
+  font-weight: 900;
+}
+/* line 1663, ../sass/style.scss */
+#reservar .content #cotizacion .price-content .title-slide {
+  text-align: center;
+  background-color: #fff;
+  width: 330px;
+}
+/* line 1667, ../sass/style.scss */
+#reservar .content #cotizacion .price-content .title-slide .fa {
+  font-size: 34px;
+}
+/* line 1670, ../sass/style.scss */
+#reservar .content #cotizacion .price-content .title-slide .row.flex {
+  margin: 0;
+  width: 100%;
+}
+/* line 1674, ../sass/style.scss */
+#reservar .content #cotizacion .price-content .title-slide i {
+  color: #3359a2;
+  font-size: 24px;
+}
+/* line 1678, ../sass/style.scss */
+#reservar .content #cotizacion .price-content .title-slide .material-placeholder {
+  width: 200px;
+  margin: 0 auto;
+}
+/* line 1683, ../sass/style.scss */
+#reservar .content #cotizacion .price-content .desc-slide {
+  text-align: left;
+  width: 200px;
+  padding-top: 30px;
+}
+/* line 1687, ../sass/style.scss */
+#reservar .content #cotizacion .price-content .desc-slide .row {
+  margin: 0;
+}
+/* line 1689, ../sass/style.scss */
+#reservar .content #cotizacion .price-content .desc-slide .row .text-icon {
+  padding-left: 25px;
+}
+/* line 1692, ../sass/style.scss */
+#reservar .content #cotizacion .price-content .desc-slide .row i {
+  font-size: 24px;
+}
+/* line 1696, ../sass/style.scss */
+#reservar .content #cotizacion .price-content .desc-slide .text p {
+  font-size: 12px;
+  text-align: justify;
+}
+/* line 1700, ../sass/style.scss */
+#reservar .content #cotizacion .price-content .desc-slide .allinclude {
+  background-color: #f1d546;
+  margin: 0 10px;
+  color: #224689;
+  width: 220px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+/* line 1708, ../sass/style.scss */
+#reservar .content #cotizacion .price-content .desc-slide .allinclude p {
+  margin: 5px;
+  font-weight: bold;
+}
+/* line 1713, ../sass/style.scss */
+#reservar .content #cotizacion .price-content .desc-slide .reserve {
+  background-color: #224689;
+  margin: 0 10px;
+  text-align: center;
+  width: 220px;
+  cursor: pointer;
+}
+/* line 1719, ../sass/style.scss */
+#reservar .content #cotizacion .price-content .desc-slide .reserve p {
+  margin: 10px;
+  font-size: 24px;
+  color: #FFF;
+  font-family: 'AvenirB';
+}
+/* line 1728, ../sass/style.scss */
+#reservar .content #cotizacion .price-table {
+  width: 352px;
+  height: 400px;
+  background-color: #FFF;
+  margin-left: 15px;
+}
+/* line 1733, ../sass/style.scss */
+#reservar .content #cotizacion .price-table h2 {
+  background-color: #224689;
+  color: #FFF;
+  font-size: 14px;
+  font-family: 'AvenirM';
+  text-align: left;
+  margin: 0;
+  font-weight: bold;
+  padding: 8px 5px 5px 5px;
+}
+/* line 1743, ../sass/style.scss */
+#reservar .content #cotizacion .price-table .btn {
+  margin-top: 7px;
+  width: 250px;
+  background-color: #224689;
+  font-family: 'AvenirB';
+}
+/* line 1749, ../sass/style.scss */
+#reservar .content #cotizacion .price-table .gray {
+  background-color: #787878;
+}
+/* line 1752, ../sass/style.scss */
+#reservar .content #cotizacion .price-table table {
+  font-size: 13px;
+  color: #224689;
+}
+/* line 1755, ../sass/style.scss */
+#reservar .content #cotizacion .price-table table tr, #reservar .content #cotizacion .price-table table td, #reservar .content #cotizacion .price-table table th {
+  border-radius: 0;
+  font-weight: bold;
+  font-family: "AvenirM";
+}
+/* line 1760, ../sass/style.scss */
+#reservar .content #cotizacion .price-table table th {
+  padding: 5px 5px;
+}
+/* line 1763, ../sass/style.scss */
+#reservar .content #cotizacion .price-table table td {
+  padding: 5px 5px;
+  border-bottom: 1px solid #ccc;
+}
+/* line 1767, ../sass/style.scss */
+#reservar .content #cotizacion .price-table table tr.table-head {
+  background-color: #3359a2;
+  color: #FFF;
+  text-align: center;
+}
+/* line 1772, ../sass/style.scss */
+#reservar .content #cotizacion .price-table table .total {
+  background-color: #f0d54a;
+  color: #5f561a;
+}
+/* line 1775, ../sass/style.scss */
+#reservar .content #cotizacion .price-table table .total td {
+  padding: 10px 5px;
+}
+/* line 1779, ../sass/style.scss */
+#reservar .content #cotizacion .price-table table .price {
+  font-size: 12px;
+}

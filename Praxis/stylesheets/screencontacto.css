@@ -1,0 +1,38 @@
+@media (max-width: 414px) and (max-height: 736px) and (min-width: 320px) and (min-height: 468px) {
+  /* line 2, ../sass/screencontacto.scss */
+  body {
+    overflow: visible;
+    background-color: #e7e7e7;
+  }
+
+  /* line 6, ../sass/screencontacto.scss */
+  #contacto {
+    flex-wrap: wrap;
+  }
+
+  /* line 9, ../sass/screencontacto.scss */
+  #contact-content {
+    height: 700px;
+  }
+
+  /* line 12, ../sass/screencontacto.scss */
+  #contact-content .contact-form {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  /* line 16, ../sass/screencontacto.scss */
+  #contact-content #contacto {
+    background-color: #656668;
+    width: 100%;
+    height: 600px;
+    margin-top: 25%;
+    border-radius: 20px;
+  }
+
+  /* line 23, ../sass/screencontacto.scss */
+  .contact-info {
+    margin-top: 220px;
+    margin-bottom: 100px;
+  }
+}

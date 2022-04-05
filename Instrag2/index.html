@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Instrag | Public Affairs</title>
+    <link rel="stylesheet" href="assets/css/main.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <meta name="google-site-verification" content="CXySped0SoHptQGPZ6X2EQv7QxIdSEXfQOZ3tEPLUmg" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <script src="assets/js/jquery.cycle2.min.js"></script>
+    <script type="text/javascript">
+    var i = 1;
+    jQuery(document).ready(function($) {
+      setInterval("autoSlide()", 10000);
+    });
+
+    function autoSlide(){
+      $("#slidern-" + i).prop("checked", false);
+      if (i < 5) {
+        i ++;
+        $("#slidern-" + i).prop("checked", true);
+      } else {
+        i = 1;
+        $("#slidern-" + i).prop("checked", true);
+      }
+    };
+    function slider1(n){
+      i = n;
+    }
+    </script>
+</head>
+<body>
+<nav id="media-navbar" class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a href="index.html"><img src="assets/images/logo.png"></a>
+    </div>
+    <div style="position: relative; background-color: white; width: 100%;" class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="ourteam.html">Our Team</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<nav id="general-navbar" class="navbar navbar-default">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav navbar-left">
+<img src="assets/images/logo.png">
+	</ul>
+    <ul class="nav navbar-nav header">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="ourteam.html">Our Team</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="headbar"></div>
+<section class="home">
+  <div class="slidern">
+    <div class="slidern-inner">
+        <input class="slidern-open" type="radio" id="slidern-1" name="slidern" aria-hidden="true" hidden="" checked="checked">
+        <div class="slidern-item slidern1">
+          <h1 class="home">We facilitate the transition of fierce disruption into ordinary life</h1>
+          <h2 class="home2">Technology	is	transforming	the	world	like	never	before,	our	generation
+          will	witness	more	progress	in their	lifetimes	than	the	whole	span	of	human	life
+          ever	before	us.</h2>
+        </div>
+        <input class="slidern-open" type="radio" id="slidern-2" name="slidern" aria-hidden="true" hidden="">
+        <div class="slidern-item slidern2">
+          <h1 class="home">We facilitate the transition of fierce disruption into ordinary life</h1>
+          <h2 class="home2">Within this new social reality, disruption is happening at an exponential
+          speed, affecting not only the present and future of businesses and markets, but also,
+          the public sphere.</h2>
+        </div>
+        <input class="slidern-open" type="radio" id="slidern-3" name="slidern" aria-hidden="true" hidden="">
+        <div class="slidern-item slidern3">
+          <h1 class="home">We facilitate the transition of fierce disruption into ordinary life</h1>
+          <h2 class="home3">This poses major challenges for industries where technology advances
+          extremely faster than regulations, as well as for regulators, who have to deal with
+          issues that are not completely understood, but that could pose major threats to public
+          order. Like never before, Public Affairs is a key component of any major innovation
+          strategy.</h2>
+        </div>
+        <input class="slidern-open" type="radio" id="slidern-4" name="slidern" aria-hidden="true" hidden="">
+        <div class="slidern-item slidern4">
+          <h1 class="home">We facilitate the transition of fierce disruption into ordinary life</h1>
+          <h2 class="home2">We combine strategic intelligence, key relationships, in-depth knowledge,
+          social capital, innovative tactics and the best channels to advance our clients interests.</h2>
+        </div>
+        <input class="slidern-open" type="radio" id="slidern-5" name="slidern" aria-hidden="true" hidden="">
+        <div class="slidern-item slidern5">
+          <h1 class="home">We facilitate the transition of fierce disruption into ordinary life</h1>
+          <h2 class="home2">We build personalized solutions both for our clients and governments,
+          finding a path forward that leads to win-win scenarios, brining about transformative change.</h2>
+        </div>
+        <label for="slidern-5" class="slidern-control prev control-1" onclick="slider1(5)">‹</label>
+        <label for="slidern-2" class="slidern-control next control-1" onclick="slider1(2)">›</label>
+        <label for="slidern-1" class="slidern-control prev control-2" onclick="slider1(1)">‹</label>
+        <label for="slidern-3" class="slidern-control next control-2" onclick="slider1(3)">›</label>
+        <label for="slidern-2" class="slidern-control prev control-3" onclick="slider1(2)">‹</label>
+        <label for="slidern-4" class="slidern-control next control-3" onclick="slider1(4)">›</label>
+        <label for="slidern-3" class="slidern-control prev control-4" onclick="slider1(3)">‹</label>
+        <label for="slidern-5" class="slidern-control next control-4" onclick="slider1(5)">›</label>
+        <label for="slidern-4" class="slidern-control prev control-5" onclick="slider1(4)">‹</label>
+        <label for="slidern-1" class="slidern-control next control-5" onclick="slider1(1)">›</label>
+        <ol class="slidern-indicators">
+            <li>
+                <label for="slidern-1" class="slidern-bullet" onclick="slider1(1)">•</label>
+            </li>
+            <li>
+                <label for="slidern-2" class="slidern-bullet" onclick="slider1(2)">•</label>
+            </li>
+            <li>
+                <label for="slidern-3" class="slidern-bullet" onclick="slider1(3)">•</label>
+            </li>
+            <li>
+                <label for="slidern-4" class="slidern-bullet" onclick="slider1(4)">•</label>
+            </li>
+            <li>
+                <label for="slidern-5" class="slidern-bullet" onclick="slider1(5)">•</label>
+            </li>
+        </ol>
+    </div>
+  </div>
+
+
+</section>
+<footer class="home">
+	<p class= "footer">Copyright © 2016 Instrag. All rights reserved.</p>
+</footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

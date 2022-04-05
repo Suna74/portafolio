@@ -1,0 +1,149 @@
+@media (max-width: 414px) and (max-height: 736px) and (min-width: 320px) and (min-height: 468px) {
+  /* line 2, ../sass/screenservices.scss */
+  #services-content .services-cont {
+    display: none;
+  }
+
+  /* line 5, ../sass/screenservices.scss */
+  body {
+    overflow: visible;
+    background-color: #c2c2c2;
+  }
+
+  /* line 9, ../sass/screenservices.scss */
+  .services-mobile {
+    display: block !important;
+    width: 320px;
+    margin: 0 auto;
+  }
+  /* line 13, ../sass/screenservices.scss */
+  .services-mobile .flex {
+    justify-content: flex-start;
+  }
+
+  /* line 17, ../sass/screenservices.scss */
+  #img0 {
+    margin: 0 auto;
+    background-position: bottom !important;
+    width: 320px !important;
+    height: 317px !important;
+  }
+
+  /* line 23, ../sass/screenservices.scss */
+  #img1 {
+    margin: 0 auto;
+    width: 320px !important;
+    height: 317px !important;
+  }
+
+  /* line 28, ../sass/screenservices.scss */
+  #img2 {
+    margin: 0 auto;
+    display: block !important;
+    background-position: bottom left !important;
+    width: 320px !important;
+    height: 317px !important;
+  }
+
+  /* line 35, ../sass/screenservices.scss */
+  #img3 {
+    margin: 0 auto;
+    display: block !important;
+    background-position: center !important;
+    width: 320px !important;
+    height: 317px !important;
+  }
+
+  /* line 42, ../sass/screenservices.scss */
+  #img4 {
+    margin: 0 auto;
+    display: block !important;
+    width: 320px !important;
+    height: 317px !important;
+  }
+
+  /* line 48, ../sass/screenservices.scss */
+  #img5 {
+    margin: 0 auto;
+    display: block !important;
+    width: 320px !important;
+    height: 317px !important;
+    background-position: top right !important;
+  }
+
+  /* line 55, ../sass/screenservices.scss */
+  #img6 {
+    margin: 0 auto;
+    display: block !important;
+    width: 320px !important;
+    height: 317px !important;
+  }
+
+  /* line 61, ../sass/screenservices.scss */
+  .overlay-service {
+    width: 320px;
+    min-height: 317px;
+    position: absolute;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 25;
+    transition: 2s;
+    cursor: pointer;
+  }
+  /* line 70, ../sass/screenservices.scss */
+  .overlay-service :hover {
+    opacity: 0;
+    transition: 2s;
+    background-color: transparent !important;
+  }
+  /* line 75, ../sass/screenservices.scss */
+  .overlay-service p {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    bottom: 150px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 2s;
+  }
+
+  /* line 88, ../sass/screenservices.scss */
+  .gestion-contenido p, .salud-contenido p, .socialurbano-contenido p, .alimentos-contenido p, .tecnoinfo-contenido p, .seguridad-contenido p, .construccion-contenido p {
+    font-weight: 100;
+    font-size: 18px;
+    text-align: left;
+    margin: 0 auto;
+    width: 95%;
+    color: #fff;
+  }
+
+  /* line 96, ../sass/screenservices.scss */
+  .gestion-contenido, .salud-contenido, .socialurbano-contenido, .alimentos-contenido, .tecnoinfo-contenido, .seguridad-contenido, .construccion-contenido {
+    display: none;
+    background-color: #656668;
+    width: auto;
+    height: 100%;
+    float: none;
+    padding: 25px;
+    padding-bottom: 70px;
+    letter-spacing: 1px;
+    cursor: initial;
+  }
+
+  /* line 107, ../sass/screenservices.scss */
+  .services-back-mobile i {
+    vertical-align: middle;
+    font-weight: 100;
+    font-size: 48px;
+    color: #bec1c3;
+    position: inherit;
+    cursor: pointer;
+    vertical-align: bottom;
+    text-align: right;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+}

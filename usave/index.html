@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>U-SAVE</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" media="screen,projection">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/screen.css">
+    <script src="https://use.fontawesome.com/eafa080988.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="shortcut icon" href="favicon.ico">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-wrapper">
+          <div class="nav-center">
+            <a href="index.html" class="brand-logo"><img src="assets/images/logo-usave.png" alt=""></a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down valign-wrapper">
+              <li><a href="#">INICIO</a></li>
+              <li><a href="reservar.php">RESERVA</a></li>
+              <li><a href="seguros.html">SEGUROS</a></li>
+              <li><a href="flotilla.php">NUESTRA FLOTILLA</a></li>
+              <li><a href="contacto.html">CONTACTO</a></li>
+              <li class="btn-net"><a class="socialnet" href="https://www.facebook.com/usavemexico" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li class="btn-net"><a class="socialnet" href="https://twitter.com/usavemexico" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li class="btn-net"><a class="socialnet" href="https://plus.google.com/114870054196917032127" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+            </ul>
+          <ul class="side-nav" id="mobile-demo">
+            <li><a href="#">INICIO</a></li>
+            <li><a href="reservar.php">RESERVA</a></li>
+            <li><a href="seguros.html">SEGUROS</a></li>
+            <li><a href="flotilla.php">NUESTRA FLOTILLA</a></li>
+            <li><a href="contacto.html">CONTACTO</a></li>
+            <li class="btn-net"><a class="socialnet" href="https://www.facebook.com/usavemexico" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li class="btn-net"><a class="socialnet" href="https://twitter.com/usavemexico" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li class="btn-net"><a class="socialnet" href="https://plus.google.com/114870054196917032127" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+          </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="slider">
+        <div class="carousel carousel-slider" data-indicators="true">
+          <div class="carousel-item item1" href="#one!">
+          </div>
+          <div class="carousel-item item2" href="#two!">
+            <div class="border-red">
+              <img src="assets/images/ddw-cover.png" alt="">
+              <blockquote class="valign-wrapper border-orange">
+                <h2 class="valign"><span class="textblue">DDW+</span><br>
+                PAI <br>
+                FULL COVER</h2>
+              </blockquote>
+            </div>
+          </div>
+          <div class="carousel-item item3" href="#three!">
+            <div class="border-red">
+              <img src="assets/images/ddw-cover.png" alt="">
+              <blockquote class="valign-wrapper border-orange">
+                <h2 class="valign">DDW+<br>
+                PAI <br>
+                FULL COVER</h2>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="main-form">
+        <div class="form-content">
+          <div class="blue-divider">
+          </div>
+          <h2>RESERVACIÓN</h2>
+          <form action="reservar.php" method="post">
+            <div class="input-field col s12 rentplace">
+              <select name="cbox_lugar_renta">
+                <option value="" disabled selected>Seleccionar</option>
+                <option value="Aeropuerto Internacional de LC">Aeropuerto Internacional de LC</option>
+                <option value="Royal Decameron">Royal Decameron</option>
+                <option value="Club Regina">Club Regina</option>
+                <option value="Cabo San Lucas Centro">Cabo San Lucas Centro</option>
+                <option value="Sandos Finisterra">Sandos Finisterra</option>
+                <option value="Club Cascadas del Baja">Club Cascadas del Baja</option>
+              </select>
+              <label>Lugar de renta</label>
+            </div>
+            <label>Pick-up</label> <br>
+            <div class="datetimepicker">
+              <input type="date" class="datepicker" placeholder="Fecha" name="txt_fecha_renta">
+              <select name="cbox_hora_inicial">
+                <option value="" disabled selected>Hora</option>
+                <option value="08:00 a.m.">08:00 a.m.</option>
+                <option value="09:00 a.m.">09:00 a.m.</option>
+                <option value="10:00 a.m.">10:00 a.m.</option>
+                <option value="11:00 a.m.">11:00 a.m.</option>
+                <option value="12:00 p.m.">12:00 p.m.</option>
+                <option value="13:00 p.m.">13:00 p.m.</option>
+                <option value="14:00 p.m.">14:00 p.m.</option>
+                <option value="15:00 p.m.">15:00 p.m.</option>
+                <option value="16:00 p.m.">16:00 p.m.</option>
+                <option value="17:00 p.m.">17:00 p.m.</option>
+                <option value="18:00 p.m.">18:00 p.m.</option>
+                <option value="19:00 p.m.">19:00 p.m.</option>
+                <option value="20:00 p.m.">20:00 p.m.</option>
+              </select>
+            </div>
+            <div class="input-field col s12 rentplace">
+              <select name="cbox_lugar_entrega">
+                <option value="" disabled selected>Seleccionar</option>
+                <option value="Aeropuerto Internacional de LC">Aeropuerto Internacional de LC</option>
+                <option value="Royal Decameron">Royal Decameron</option>
+                <option value="Club Regina">Club Regina</option>
+                <option value="Cabo San Lucas Centro">Cabo San Lucas Centro</option>
+                <option value="Sandos Finisterra">Sandos Finisterra</option>
+                <option value="Club Cascadas del Baja">Club Cascadas del Baja</option>
+              </select>
+              <label>Lugar de entrega</label>
+            </div>
+            <label>Drop-off</label> <br>
+            <div class="datetimepicker">
+              <input type="date" class="datepicker" placeholder="Fecha" name="txt_fecha_entrega">
+              <select name="cbox_hora_final">
+                <option value="" disabled selected>Hora</option>
+                <option value="08:00 a.m.">08:00 a.m.</option>
+                <option value="09:00 a.m.">09:00 a.m.</option>
+                <option value="10:00 a.m.">10:00 a.m.</option>
+                <option value="11:00 a.m.">11:00 a.m.</option>
+                <option value="12:00 p.m.">12:00 p.m.</option>
+                <option value="13:00 p.m.">13:00 p.m.</option>
+                <option value="14:00 p.m.">14:00 p.m.</option>
+                <option value="15:00 p.m.">15:00 p.m.</option>
+                <option value="16:00 p.m.">16:00 p.m.</option>
+                <option value="17:00 p.m.">17:00 p.m.</option>
+                <option value="18:00 p.m.">18:00 p.m.</option>
+                <option value="19:00 p.m.">19:00 p.m.</option>
+                <option value="20:00 p.m.">20:00 p.m.</option>
+              </select>
+            </div>
+            <!-- <a class="waves-effect waves-light btn">RENTAR</a> -->
+            <button class="btn waves-effect waves-light" id="reservarauto" type="submit" name="rentar">Seleccionar Auto</button>
+          </form>
+        </div>
+      </section>
+      <footer class="page-footer">
+        <div class="footer-copyright">
+          <div class="container valign-wrapper">
+            <div class="center valign">
+              Copyright © 2017 U-SAVE Todos los derechos reservados.
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $(".button-collapse").sideNav();
+      $('main').height(screen.height - 230);
+      $('.carousel').height(screen.height - 230);
+      $('.carousel-item').height(screen.height - 230);
+      $('.border-red').height(screen.height - 230);
+      $('.valign-size').height(screen.height - 230);
+      $('#slider').height(screen.height - 230);
+      $('.carousel.carousel-slider').carousel({fullWidth: true});
+      $('select').material_select();
+      $('.datepicker').pickadate({
+        selectMonths: true,
+        selectYears: 15,
+        firstDay: true,
+        min: true,
+        max: false,
+        format: 'yyyy/mm/dd',
+        onSet: function( arg ){ //Funcion para que se cierre el datepicker al seleccionar un dia
+          if ( 'select' in arg ){  // prevee que no se cierre si selecciona un mes o aÃ±o.
+            this.close();
+          }
+        }
+      });
+    });
+    </script>
+  </body>
+</html>

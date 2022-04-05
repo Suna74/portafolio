@@ -1,0 +1,13 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'AvenirR';
+  background-color: #000;
+  color: #FFF;
+}
+
+nav{
+  background-color: #000;
+  height: 80px;
+  line-height: 80px;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>U-SAVE</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" media="screen,projection">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/screen.css">
+    <script src="https://use.fontawesome.com/eafa080988.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="shortcut icon" href="favicon.ico">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-wrapper">
+          <div class="nav-center">
+            <a href="index.php" class="brand-logo"><img src="assets/images/logo-usave.png" alt=""></a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down valign-wrapper">
+              <li><a href="index.html">INICIO</a></li>
+              <li><a href="reservar.php">RESERVA</a></li>
+              <li><a href="seguros.html">SEGUROS</a></li>
+              <li><a href="flotilla.php">NUESTRA FLOTILLA</a></li>
+              <li><a href="#">CONTACTO</a></li>
+              <li class="btn-net"><a class="socialnet" href="https://www.facebook.com/usavemexico" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li class="btn-net"><a class="socialnet" href="https://twitter.com/usavemexico" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li class="btn-net"><a class="socialnet" href="https://plus.google.com/114870054196917032127" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+            </ul>
+          <ul class="side-nav" id="mobile-demo">
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="reservar.php">RESERVA</a></li>
+            <li><a href="seguros.html">SEGUROS</a></li>
+            <li><a href="flotilla.php">NUESTRA FLOTILLA</a></li>
+            <li><a href="#">CONTACTO</a></li>
+            <li class="btn-net"><a class="socialnet" href="https://www.facebook.com/usavemexico" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li class="btn-net"><a class="socialnet" href="https://twitter.com/usavemexico" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li class="btn-net"><a class="socialnet" href="https://plus.google.com/114870054196917032127" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+          </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+    <section id="contacto">
+      <div class="content">
+        <div class="contact-form">
+          <div class="form-container">
+                <form class="form" action="enviar_contacto.php" method="POST" enctype="multipart/form-data">
+                  <input type="hidden" name="action" value="submit">
+                  <input type="text" name="name" placeholder="Nombre:" > <br>
+                  <input type="email" name="email" placeholder="Correo Electrónico:"><br>
+                  <input type="tel" name="cellphone" placeholder="Celular:"><br>
+                  <textarea name="message" id="textarea" placeholder="Mensaje:" class="materialize-textarea" rows="8" cols="40"></textarea><br>
+                  <button class="btn waves-effect waves-light" type="submit" name="action">Enviar</button>
+                </form>
+          </div>
+        </div>
+        <div class="contact-text">
+          <div class="row">
+            <div class="col s1"><p><i class="material-icons">&#xE0C8;</i></div>
+            <div class="col s11"><p>Área Interior Aeropuerto S/N C.P. 23400 <br>
+              San José del Cabo Baja California Sur</p></div>
+          </div>
+          <div class="row">
+            <div class="col s1"><p><i class="material-icons">&#xE0CD;</i></p></div>
+            <div class="col s11"><p>01 624 146-50833 (México)</p></div>
+          </div>
+          <div class="row">
+            <div class="col s1"><p><i class="material-icons">&#xE0CD;</i></p></div>
+            <div class="col s11"><p>01 52 624 146 5083 (Estados Unidos)</p></div>
+          </div>
+          <div class="row">
+            <div class="col s1"><p><i class="material-icons">&#xE0BE;</i></p></div>
+            <div class="col s11"><p>javierbarajas@usavemexico.com</p></div>
+          </div>
+          <div class="row">
+            <div class="col s12"><p>Preguntas, ideas, problemas, elogio o crítica?
+              Esperamos con interés recibir su mensaje.</p></div>
+          </div>
+        </div>
+      </div>
+            <div class="map">
+              <div class="overlay" onclick="style.pointerEvents='none'"></div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3668.675438616323!2d-109.72045518540568!3d23.14553578489082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86af5b7bf0f2ab25%3A0xe9d861ed47ef00aa!2sAeropuerto+Internacional+de+Los+Cabos+(SJD)!5e0!3m2!1ses-419!2smx!4v1494443581920" frameborder="0" class="responsive-map" allowfullscreen=""></iframe>
+            </div>
+    </section>
+      <footer class="page-footer">
+        <div class="footer-copyright">
+          <div class="container valign-wrapper">
+            <div class="center valign">
+              Copyright © 2017 U-SAVE Todos los derechos reservados.
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $(".button-collapse").sideNav();
+      $('main').height(screen.height - 230);
+      $('#contacto').height(screen.height - 230);
+    });
+    </script>
+  </body>
+</html>

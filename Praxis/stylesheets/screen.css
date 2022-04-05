@@ -1,0 +1,433 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@media (min-width: 1900px) {
+  /* line 8, ../sass/screen.scss */
+  #gear-animation4 {
+    top: 16%;
+    left: -16%;
+  }
+}
+@media (max-width: 414px) and (max-height: 736px) and (min-width: 320px) and (min-height: 468px) {
+  /* line 15, ../sass/screen.scss */
+  #engranajes #gear-animation2 {
+    float: none;
+    position: absolute;
+    top: 93px;
+    left: 189px;
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  /* line 23, ../sass/screen.scss */
+  #engranajes .contact-img {
+    top: 61px;
+    left: 48px;
+    width: 60px;
+  }
+
+  /* line 28, ../sass/screen.scss */
+  #engranajes #gear-animation3 {
+    top: 218px;
+    left: -17px;
+  }
+
+  /* line 32, ../sass/screen.scss */
+  #engranajes .aboutus-img {
+    top: 88px;
+    left: 75px;
+    width: 130px;
+  }
+
+  /* line 37, ../sass/screen.scss */
+  #engranajes .services-img {
+    top: 75px;
+    left: 42px;
+    width: 95px;
+  }
+
+  /* line 42, ../sass/screen.scss */
+  .gear-img1 {
+    width: 275px;
+  }
+
+  /* line 45, ../sass/screen.scss */
+  .gear-img2 {
+    width: 236px;
+  }
+
+  /* line 48, ../sass/screen.scss */
+  .gear-img3 {
+    width: 155px;
+  }
+
+  /* line 51, ../sass/screen.scss */
+  #content {
+    top: 80%;
+    z-index: 30;
+  }
+
+  /* line 55, ../sass/screen.scss */
+  .flex .socialnet {
+    bottom: 25px;
+  }
+
+  /* line 58, ../sass/screen.scss */
+  .flex .socialnet2 {
+    bottom: 25px;
+  }
+
+  /* line 61, ../sass/screen.scss */
+  #main-footer img {
+    width: 35%;
+    margin: 10px;
+  }
+
+  /* line 65, ../sass/screen.scss */
+  #content #quote h1 {
+    font-size: 14px;
+    width: 86%;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* line 72, ../sass/screen.scss */
+  .menu-toggle {
+    right: 57px;
+  }
+
+  /* line 75, ../sass/screen.scss */
+  #gear-animation4 {
+    top: 13%;
+    left: -95%;
+  }
+
+  /* line 79, ../sass/screen.scss */
+  #aboutus-content .text-justify {
+    padding-left: 159px;
+    width: 55%;
+  }
+
+  /* line 83, ../sass/screen.scss */
+  #aboutus-content #nosotros {
+    background-position: 83% top;
+    height: 80vh;
+  }
+
+  /* line 87, ../sass/screen.scss */
+  #aboutus-content .container {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: flex-start;
+  }
+
+  /* line 93, ../sass/screen.scss */
+  #aboutus-content .text-justify {
+    text-align: justify;
+    padding-left: 130px;
+    width: 55%;
+    margin-top: 90px;
+  }
+
+  /* line 99, ../sass/screen.scss */
+  #gear-animation5 {
+    top: -23px;
+    left: 2%;
+  }
+
+  /* line 103, ../sass/screen.scss */
+  #aboutus-content #nosotros p {
+    color: #fff;
+    font-size: 18px;
+  }
+
+  /* line 107, ../sass/screen.scss */
+  .gear4 {
+    width: 87%;
+  }
+
+  /* line 110, ../sass/screen.scss */
+  #services-content .services-cont {
+    display: none;
+  }
+
+  /* line 113, ../sass/screen.scss */
+  #contacto {
+    flex-wrap: wrap;
+  }
+
+  /* line 116, ../sass/screen.scss */
+  #contact-content .contact-form {
+    width: 100%;
+    margin-top: 30px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) and (max-height: 1024px) {
+  /* line 123, ../sass/screen.scss */
+  nav ul {
+    margin: 14em auto;
+  }
+
+  /* line 126, ../sass/screen.scss */
+  nav .nav-footer {
+    margin-top: 289px;
+  }
+
+  /* line 129, ../sass/screen.scss */
+  #engranajes {
+    width: 54%;
+  }
+
+  /* line 132, ../sass/screen.scss */
+  #content {
+    top: 58%;
+  }
+
+  /* line 135, ../sass/screen.scss */
+  #content #quote h1 {
+    font-size: 27px;
+    width: 75%;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* line 142, ../sass/screen.scss */
+  .menu-toggle {
+    right: 60px;
+  }
+
+  /* line 145, ../sass/screen.scss */
+  #gear-animation4 {
+    top: 14%;
+    left: -47%;
+  }
+
+  /* line 149, ../sass/screen.scss */
+  #aboutus-content .text-justify {
+    padding-left: 211px;
+  }
+
+  /* line 152, ../sass/screen.scss */
+  #aboutus-content #nosotros {
+    background-position: 80% top;
+  }
+}
+@media (width: 320px) and (height: 568px) {
+  /* line 158, ../sass/screen.scss */
+  #gear-animation4 {
+    top: 10%;
+    left: -116%;
+  }
+
+  /* line 162, ../sass/screen.scss */
+  #aboutus-content .text-justify {
+    text-align: justify;
+    padding-left: 115px;
+    width: 56%;
+    margin-top: 37px;
+  }
+
+  /* line 168, ../sass/screen.scss */
+  #aboutus-content #nosotros p {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1360px) and (max-height: 1024px) {
+  /* line 174, ../sass/screen.scss */
+  nav ul {
+    margin: 14em auto;
+  }
+
+  /* line 177, ../sass/screen.scss */
+  nav .nav-footer {
+    margin-top: 289px;
+  }
+
+  /* line 180, ../sass/screen.scss */
+  #engranajes {
+    width: 54%;
+  }
+
+  /* line 183, ../sass/screen.scss */
+  #content {
+    top: 55%;
+  }
+
+  /* line 186, ../sass/screen.scss */
+  #content #quote h1 {
+    font-size: 40px;
+    width: 90%;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* line 193, ../sass/screen.scss */
+  .menu-toggle {
+    right: 60px;
+  }
+}
+@media (max-width: 1024px) and (min-height: 1025px) and (max-height: 1366px) {
+  /* line 199, ../sass/screen.scss */
+  nav ul {
+    margin: 25em auto;
+  }
+
+  /* line 202, ../sass/screen.scss */
+  nav .nav-footer {
+    margin-top: 455px;
+  }
+
+  /* line 205, ../sass/screen.scss */
+  .menu-toggle {
+    right: 60px;
+  }
+
+  /* line 208, ../sass/screen.scss */
+  #engranajes {
+    width: 54%;
+  }
+
+  /* line 211, ../sass/screen.scss */
+  #content {
+    top: 53%;
+  }
+
+  /* line 214, ../sass/screen.scss */
+  #content #quote h1 {
+    font-size: 45px;
+    width: 90%;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* line 221, ../sass/screen.scss */
+  .menu-toggle {
+    right: 60px;
+  }
+
+  /* line 224, ../sass/screen.scss */
+  #gear-animation4 {
+    top: 10%;
+    left: -52%;
+  }
+
+  /* line 228, ../sass/screen.scss */
+  .gear4 {
+    width: 140%;
+  }
+
+  /* line 231, ../sass/screen.scss */
+  #aboutus-content #nosotros {
+    background-position: 80% top;
+  }
+}
+@media (max-width: 1024px) and (max-height: 768px) and (min-height: 738px) {
+  /* line 237, ../sass/screen.scss */
+  nav .nav-footer {
+    margin-top: 191px;
+  }
+
+  /* line 240, ../sass/screen.scss */
+  #engranajes {
+    width: 54%;
+  }
+
+  /* line 243, ../sass/screen.scss */
+  #content {
+    top: 45%;
+    width: 100%;
+  }
+
+  /* line 247, ../sass/screen.scss */
+  #content #quote h1 {
+    font-size: 24px;
+    width: 51%;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: 140px;
+  }
+
+  /* line 254, ../sass/screen.scss */
+  .menu-toggle {
+    right: 60px;
+  }
+
+  /* line 257, ../sass/screen.scss */
+  #main-footer img {
+    width: 485px;
+  }
+
+  /* line 260, ../sass/screen.scss */
+  #gear-animation4 {
+    top: 8%;
+    left: -38%;
+  }
+
+  /* line 264, ../sass/screen.scss */
+  nav ul {
+    margin: 7em auto;
+  }
+}
+@media screen and (min-device-width: 1279px) and (max-device-width: 1360px) {
+  /* line 270, ../sass/screen.scss */
+  #content #quote h1 {
+    font-size: 25px;
+    width: 77%;
+    margin: 0 auto;
+    margin-left: 250px;
+    margin-right: auto;
+  }
+
+  /* line 277, ../sass/screen.scss */
+  #content {
+    top: 47%;
+  }
+
+  /* line 280, ../sass/screen.scss */
+  nav ul {
+    margin: 3em auto;
+  }
+
+  /* line 283, ../sass/screen.scss */
+  nav .nav-footer {
+    margin-top: 100px;
+  }
+
+  /* line 289, ../sass/screen.scss */
+  #services-content .img2 h3 {
+    left: 419px;
+  }
+  /* line 293, ../sass/screen.scss */
+  #services-content .img-wrapper {
+    width: 516px;
+  }
+  /* line 296, ../sass/screen.scss */
+  #services-content .img-wrapper3 {
+    width: 305px;
+  }
+  /* line 299, ../sass/screen.scss */
+  #services-content .services-img h4 {
+    bottom: 40px;
+  }
+  /* line 302, ../sass/screen.scss */
+  #services-content .img4 h3 {
+    top: 550px;
+    left: 155px;
+  }
+  /* line 306, ../sass/screen.scss */
+  #services-content .img5 h4 {
+    top: 550px;
+    left: 500px;
+  }
+  /* line 310, ../sass/screen.scss */
+  #services-content .img6 h5 {
+    top: 530px;
+    left: 770px;
+  }
+}

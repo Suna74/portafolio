@@ -1,0 +1,38 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+
+@media (max-width: 1440px) {
+  .border-red{
+    background-size: auto !important;
+    img{
+      margin-top: 20% !important;
+      margin-left: 62% !important;
+    }
+  }
+  .carousel .border-red blockquote {
+    margin-top: 18% !important;
+  }
+}
+
+@media (max-width: 1980px){
+  #introduction .intro-content{
+    height: 60%;
+    p{
+      margin-top: 50px;
+      font-size: 1.3rem;
+    }
+  }
+  #industries .indus-content img{
+    width: 180%;
+    margin-top: 3%;
+  }
+  #industries .indus-content p{
+    font-size: 1.2rem;
+  }
+  #gallery .gallery-content .slider .slides{
+    height: 500px !important;
+  }
+}

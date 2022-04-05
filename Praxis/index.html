@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/screen.css">
+    <script src="https://use.fontawesome.com/121247b17a.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>Praxis</title>
+  </head>
+  <body>
+    <header>
+      <div class="menu-section">
+        <div class="menu-toggle">
+          <div class="one"></div>
+          <div class="two"></div>
+          <div class="three"></div>
+        </div>
+        <nav>
+      		<ul role="navigation" class="hidden">
+      			<li><a href="index.html" class="activelnk">Inicio</a></li>
+      			<li><a href="nosotros.html">Praxis</a></li>
+      			<li><a href="servicios.html">Servicios</a></li>
+      			<li><a href="contacto.php">Contacto</a></li>
+            <div class="nav-footer">
+              <div class="flex">
+                <i class="fa fa-facebook socialnet" aria-hidden="true"></i>
+                <i class="fa fa-twitter socialnet2" aria-hidden="true"></i>
+              </div><br>
+              <li>Copyright &copy; 2017 Praxis. Todos los derechos reservados.</li>
+            </div>
+      		</ul>
+      	</nav>
+      </div>
+    </header>
+    <section id="menu">
+      <div id="engranajes">
+        <div id="gear-animation1">
+          <div id="services-icon">
+            <img src="assets/images/praxis-servicio.png" class="services-img" alt="">
+          </div>
+          <div id="services-icon2" class="icon-change">
+            <img src="assets/images/praxis-servicio2.png" class="services-img" alt="">
+          </div>
+          <a href="servicios.html"><img src="assets/images/engranaje_x2.png" class="gear-img2" alt=""></a>
+        </div>
+        <div id="gear-animation2">
+          <div id="contact-icon">
+            <img src="assets/images/praxis-contacto.png" class="contact-img" alt="">
+          </div>
+          <div id="contact-icon2" class="icon-change">
+            <img src="assets/images/praxis-contacto2.png" class="contact-img" alt="">
+          </div>
+          <a href="contacto.php"><img src="assets/images/engranaje_x3.png" class="gear-img3" alt=""></a>
+        </div>
+        <div id="gear-animation3">
+          <div id="aboutus-icon">
+            <img src="assets/images/praxis-nosotros.png" class="aboutus-img" alt="">
+          </div>
+          <div id="aboutus-icon2" class="icon-change">
+            <img src="assets/images/praxis-nosotros2.png" class="aboutus-img" alt="">
+          </div>
+          <a href="nosotros.html"><img src="assets/images/engranaje_x1.png" class="gear-img1" alt=""></a>
+        </div>
+      </div>
+    </section>
+    <section id="content">
+      <div id="quote">
+        <h1>Consultoría integral de gestión privada, pública y ejercicio gubernamental.</h1>
+      </div>
+    </section>
+    <div id="main-footer">
+      <img src="assets/images/praxis-logo.png" alt="">
+      <div class="flex">
+        <i class="fa fa-facebook socialnet" aria-hidden="true"></i>
+        <i class="fa fa-twitter socialnet2" aria-hidden="true"></i>
+      </div>
+    </div>
+    <script>
+      $(document).ready(function() {
+        $("#engranajes").hover(function () {
+          $(".gear-img1").stop( true, true ).toggleClass("gear");
+          $(".gear-img2").stop( true, true ).toggleClass("gear2");
+          $(".gear-img3").stop( true, true ).toggleClass("gear3");
+        });
+        $(".menu-toggle").on('click', function() {
+          $(this).toggleClass("on");
+          $('.menu-section').toggleClass("on");
+          $("nav ul").toggleClass('hidden');
+        });
+        $("#gear-animation1").hover(function () {
+          $("#services-icon2").toggleClass("icon-change");
+          $("#services-icon2").toggleClass("icon-change2");
+          $("#services-icon").toggleClass("icon-change");
+        });
+        $("#gear-animation2").hover(function () {
+          $("#contact-icon2").toggleClass("icon-change");
+          $("#contact-icon2").toggleClass("icon-change2");
+          $("#contact-icon").toggleClass("icon-change");
+        });
+        $("#gear-animation3").hover(function () {
+          $("#aboutus-icon2").toggleClass("icon-change");
+          $("#aboutus-icon2").toggleClass("icon-change2");
+          $("#aboutus-icon").toggleClass("icon-change");
+        });
+      });
+    </script>
+  </body>
+</html>
