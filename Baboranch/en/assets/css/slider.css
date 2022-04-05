@@ -1,0 +1,21 @@
+.slider {
+  height: 300px;
+  display: block;
+  perspective: 2500px;
+  position: relative;
+  width: 100%;
+}
+.slider img {
+  display: inline-block;
+  width: 470px;
+  position: absolute;
+  backface-visibility: hidden;
+  transition: .4s all;
+  -webkit-filter: grayscale(70%);
+  filter: grayscale(70%);
+}
+.slider img.activegallery {
+  z-index: 4;
+  -webkit-filter: none;
+  filter: none;
+}
